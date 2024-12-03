@@ -11,6 +11,7 @@
             margin: 0;
             padding: 0;
             background-color: #0f0f0f;
+            color: white;
         }
         .container {
             margin-top: 50px;
@@ -26,19 +27,36 @@
             height: 50px;
             margin-right: 15px;
         }
-        .text-field {
-            border: 1px solid #ccc;
-            padding: 5px 10px;
+        .input-container {
+            position: relative;
             width: 300px;
+            margin: 10px 0;
+        }
+        .text-field {
+            width: 100%;
+            padding: 10px;
             font-size: 16px;
             text-align: left;
             cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding-right: 40px;
         }
-        button {
-            margin-left: 10px;
+        .copy-button {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #4CAF50;
+            color: white;
+            border: none;
             padding: 5px 10px;
             font-size: 16px;
             cursor: pointer;
+            border-radius: 5px;
+        }
+        .copy-button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -47,24 +65,30 @@
     <div class="container">
         <div class="link">
             <a href="https://bit.ly/dvntm_autoaltstore" target="_blank">
-                <img class="icon" src="https://img.icons8.com/ios-filled/50/chain.png" alt="Add to AltStore">
+                <img class="icon" src="img/altstore.png" alt="Add to AltStore">
             </a>
             <p>Tap to open in AltStore</p>
         </div>
         <div class="link">
-            <img class="icon" src="https://img.icons8.com/ios-filled/50/copy.png" alt="Copy Link">
-            <input class="text-field" id="sidestore" value="https://bit.ly/dvntm_sidestore" readonly>
-            <button onclick="copyToClipboard('sidestore')">Copy</button>
+            <img class="icon" src="img/sidestore.png" alt="Copy Link">
+            <div class="input-container">
+                <input class="text-field" id="sidestore" value="https://bit.ly/dvntm_sidestore" readonly>
+                <button class="copy-button" onclick="copyToClipboard('sidestore')">Copy</button>
+            </div>
         </div>
         <div class="link">
-            <img class="icon" src="https://img.icons8.com/ios-filled/50/copy.png" alt="Copy Link">
-            <input class="text-field" id="esign" value="https://bit.ly/dvntm_esign" readonly>
-            <button onclick="copyToClipboard('esign')">Copy</button>
+            <img class="icon" src="img/esign.png" alt="Copy Link">
+            <div class="input-container">
+                <input class="text-field" id="esign" value="https://bit.ly/dvntm_esign" readonly>
+                <button class="copy-button" onclick="copyToClipboard('esign')">Copy</button>
+            </div>
         </div>
         <div class="link">
-            <img class="icon" src="https://img.icons8.com/ios-filled/50/copy.png" alt="Copy Link">
-            <input class="text-field" id="gbox" value="https://bit.ly/dvntm_gbox" readonly>
-            <button onclick="copyToClipboard('gbox')">Copy</button>
+            <img class="icon" src="img/gbox.png" alt="Copy Link">
+            <div class="input-container">
+                <input class="text-field" id="gbox" value="https://bit.ly/dvntm_gbox" readonly>
+                <button class="copy-button" onclick="copyToClipboard('gbox')">Copy</button>
+            </div>
         </div>
     </div>
 
