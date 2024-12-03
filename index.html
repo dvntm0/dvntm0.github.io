@@ -18,6 +18,7 @@
         }
         .link {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             margin: 20px 0;
@@ -25,80 +26,51 @@
         .icon {
             width: 50px;
             height: 50px;
-            margin-right: 15px;
-        }
-        .input-container {
-            position: relative;
-            width: 300px;
-            margin: 10px 0;
-        }
-        .text-field {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            text-align: left;
+            margin-bottom: 10px;
             cursor: pointer;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding-right: 40px;
         }
-        .copy-button {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 5px 10px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .copy-button:hover {
-            background-color: #45a049;
+        .description {
+            font-size: 14px;
+            color: #ccc;
         }
     </style>
 </head>
 <body>
-    <h1>My Links</h1>
+    <h1>Dan's Workshop Repository</h1>
     <div class="container">
         <div class="link">
             <a href="https://bit.ly/dvntm_autoaltstore" target="_blank">
                 <img class="icon" src="img/altstore.png" alt="Add to AltStore">
             </a>
-            <p>Tap to open in AltStore</p>
+            <p class="description">Tap to open in AltStore</p>
         </div>
+
         <div class="link">
-            <img class="icon" src="img/sidestore.png" alt="Copy Link">
-            <div class="input-container">
-                <input class="text-field" id="sidestore" value="https://bit.ly/dvntm_sidestore" readonly>
-                <button class="copy-button" onclick="copyToClipboard('sidestore')">Copy</button>
-            </div>
+            <img class="icon" src="img/sidestore.png" alt="Copy Link" onclick="copyToClipboard('https://bit.ly/dvntm_sidestore', 'SideStore', '1. Open SideStore and select Browse tab\n2. Tap to Sources and paste copied link')">
+            <p class="description">Copy SideStore Link</p>
         </div>
+
         <div class="link">
-            <img class="icon" src="img/esign.png" alt="Copy Link">
-            <div class="input-container">
-                <input class="text-field" id="esign" value="https://bit.ly/dvntm_esign" readonly>
-                <button class="copy-button" onclick="copyToClipboard('esign')">Copy</button>
-            </div>
+            <img class="icon" src="img/esign.png" alt="Copy Link" onclick="copyToClipboard('https://bit.ly/dvntm_esign', 'ESign', '1. Open ESign and select AppStore tab\n2. Tap to App Source -> Plus (+) icon and paste copied link')">
+            <p class="description">Copy ESign Link</p>
         </div>
+
         <div class="link">
-            <img class="icon" src="img/gbox.png" alt="Copy Link">
-            <div class="input-container">
-                <input class="text-field" id="gbox" value="https://bit.ly/dvntm_gbox" readonly>
-                <button class="copy-button" onclick="copyToClipboard('gbox')">Copy</button>
-            </div>
+            <img class="icon" src="img/gbox.png" alt="Copy Link" onclick="copyToClipboard('https://bit.ly/dvntm_gbox', 'GBox', '1. Open GBox and select Sources tab\n2. Tap to Add App Source and paste copied link')">
+            <p class="description">Copy GBox Link</p>
         </div>
     </div>
 
     <script>
-        function copyToClipboard(id) {
-            const copyText = document.getElementById(id);
-            copyText.select();
-            copyText.setSelectionRange(0, 99999);
-            document.execCommand("copy");
-            alert("Copied: " + copyText.value);
+        function copyToClipboard(link, name, instruction) {
+            const textField = document.createElement('input');
+            document.body.appendChild(textField);
+            textField.value = link;
+            textField.select();
+            document.execCommand('copy');
+            document.body.removeChild(textField);
+
+            alert(`Copied link for ${name}:\n${link}\n\n${instruction}`);
         }
     </script>
 </body>
