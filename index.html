@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Links</title>
+    <title>Dan's Workshop</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,14 +63,8 @@
 
     <script>
         function copyToClipboard(link, name, instruction) {
-            const textField = document.createElement('input');
-            document.body.appendChild(textField);
-            textField.value = link;
-            textField.select();
-            document.execCommand('copy');
-            document.body.removeChild(textField);
-
-            alert(`Copied link for ${name}:\n${link}\n\n${instruction}`);
+            navigator.clipboard.writeText(link);
+            alert(`Copied link for the ${name}:\n${link}\n\n${instruction}`);
         }
     </script>
 </body>
