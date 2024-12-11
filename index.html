@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dan's Workshop</title>
     <link rel="icon" type="image/png" href="img/favicon.png">
+    <meta property="og:title" content="Dan's Workshop">
+    <meta property="og:description" content="All Dan's repositories in on place">
+    <meta property="og:image" content="img/header.png">
+    <meta property="og:url" content="https://dvntm0.github.io">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,6 +17,9 @@
             padding: 0;
             background-color: #0f0f0f;
             color: white;
+        }
+        h2 {
+            margin-top: 80px;
         }
         .container {
             display: flex;
@@ -37,6 +44,20 @@
         .description {
             font-size: 14px;
             color: #ccc;
+        }
+        .contacts {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+            margin-top: 20px;
+        }
+        .contacts .link {
+            margin: 0;
+        }
+        .contacts .icon {
+            width: 25px;
+            height: 25px;
         }
     </style>
 </head>
@@ -89,6 +110,33 @@
         <div class="link">
             <img class="icon" src="img/gbox.png" alt="Copy Link" onclick="copyToClipboard('https://bit.ly/dvntm_gbox', 'GBox', '1. Open &quot;GBox&quot; app and select &quot;Sources&quot; tab\n2. Tap to &quot;Add App Source&quot; and paste copied link')">
             <p class="description">Copy GBox Link</p>
+        </div>
+    </div>
+
+    <h2>Сontacts</h2>
+    <div class="сontainer contacts">
+        <div class="link">
+            <a href="https://x.com/dayanch96" target="_blank">
+                <img class="icon" src="img/x.png" alt="Twitter">
+            </a>
+        </div>
+
+        <div class="link">
+            <a href="https://discord.gg/VN9ZSeMhEW" target="_blank">
+                <img class="icon" src="img/discord.png" alt="Discord">
+            </a>
+        </div>
+
+        <div class="link">
+            <a href="https://t.me/dvntms" target="_blank">
+                <img class="icon" src="img/telegram.png" alt="Telegram">
+            </a>
+        </div>
+
+        <div class="link">
+            <a href="https://www.patreon.com/dayanch96" target="_blank">
+                <img class="icon" src="img/patreon.png" alt="Patreon">
+            </a>
         </div>
     </div>
 
