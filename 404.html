@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        const redirects = {
+            "altstore": "altstore://source/?url=https://github.com/dvntm0/AltStore/raw/refs/heads/main/repo.json",
+            "feather": "feather://source/https://github.com/dvntm0/AltStore/raw/refs/heads/main/feather.json",
+            "sidestore": "sidestore://source?url=https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/sidestore.json",
+            "esign": "esign://addsource?url=https://github.com/dvntm0/AltStore/raw/refs/heads/main/esign.json"
+        };
+
+        const params = new URLSearchParams(window.location.search);
+        const source = params.get("source");
+
+        if (source && redirects[source]) {
+            window.location.replace(redirects[source]);
+        } else {
+            document.write("<h1>Link not found</h1><p>Invalid source</p>");
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
