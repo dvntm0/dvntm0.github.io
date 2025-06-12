@@ -1,48 +1,216 @@
-Package: com.dvntm.waccexport
-Version: 0.0.1
+Package: com.dvntm.infuseplus
+Version: 2.2
 Architecture: iphoneos-arm64
 Maintainer: dvntm
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm64.deb
-Size: 5206
-MD5sum: be0b2929f8e77b882125702c6ba5eae2
-SHA1: cb94fbc119f7ecba076a94ff9111d31258a9ab12
-SHA256: 89f30d5622f570930e108f2da3d256e95ac60694dc0f2dbea7d8a1183c2b822f
+Installed-Size: 1132
+Depends: mobilesubstrate
+Filename: ./repo/debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm64.deb
+Size: 405960
+MD5sum: ffe1aa91502cfdac7a7d210bb02b7874
+SHA1: 8e90feedc7e8bc7e28122d84480f9495a94a158f
+SHA256: 548262ed5cc6c77cabbd7c6503f1b100b2b6d2b606c78ee93aaf0822dd65bf0f
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: Enhancer for Infuse app
 Author: dvntm
-Name: WAChatContactsExport
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+Name: Infuse Plus
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
 
-Package: com.dvntm.waccexport
-Version: 0.0.1
+Package: com.dvntm.infuseplus
+Version: 2.2
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm64e.deb
-Size: 5142
-MD5sum: 2649e24eef4ab5f99ede5e8a63bc9657
-SHA1: 05723dc12156dcdb7c79b11604b8d5951b984cc6
-SHA256: 922bf1de5cf4369d6f7c970afc8ec5178333145ace9f73040d1ef358ee94e332
+Installed-Size: 1132
+Depends: mobilesubstrate
+Filename: ./repo/debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm64e.deb
+Size: 405142
+MD5sum: 57a609f56321d15bd837b4810d23c2ce
+SHA1: 859acacaa3b45ac03a005f15fb4d1e290a74155c
+SHA256: ce35fe119940100a2c252356895b6d5b0d71784c152a87c8ed02f641f1a7dcec
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: Enhancer for Infuse app
 Author: dvntm
-Name: WAChatContactsExport
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+Name: Infuse Plus
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
 
-Package: com.dvntm.waccexport
-Version: 0.0.1
+Package: com.dvntm.infuseplus
+Version: 2.2
 Architecture: iphoneos-arm
 Maintainer: dvntm
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm.deb
-Size: 5132
-MD5sum: 68206fe40c9829c103e69f5cc3db1ab3
-SHA1: 785b23638c70a7214469b719225cb6e6ac8bdb7c
-SHA256: cae2643509b5d25a30473232aeea3b8fb3badbc4031c880cba859356e6919fa2
+Installed-Size: 1132
+Depends: mobilesubstrate
+Filename: ./repo/debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm.deb
+Size: 406180
+MD5sum: 036247ace1807ebf3b562eceb2165e90
+SHA1: 8af9ae8ea15cc0783b37e59a9faf270719c8b350
+SHA256: 56e8ef02c0fe6032fd8fd6ac315add69ff1be63463560ebee4363d739dcfc86c
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: Enhancer for Infuse app
 Author: dvntm
-Name: WAChatContactsExport
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+Name: Infuse Plus
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
+Package: com.dvntm.ovk
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 28456
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./repo/debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm64e.deb
+Size: 10212080
+MD5sum: 3e979e15dc79773e5a309cd3b1bbec78
+SHA1: 8970d363737f8bbcbea83339f21d33e187eab807
+SHA256: 5d1b808c2a3e9040d8351ea3814e5a5ec01ec98c56b234d3c5cc20ab0bc66a39
+Section: Tweaks
+Description: A subtle shift from the familiar
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png
+Name: OrwellVK
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
+
+Package: com.dvntm.ovk
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 28456
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./repo/debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm64.deb
+Size: 10209882
+MD5sum: 4aed6d052b4883e4715e501156c32cac
+SHA1: 6b64c1b8b187ecc1971c96e7cc448e218f753fbd
+SHA256: 4dd5eb7cb13c14ed9132fb1239426426103f0bde16ecf75826035fc20260c6d5
+Section: Tweaks
+Description: A subtle shift from the familiar
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png
+Name: OrwellVK
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
+
+Package: com.dvntm.ovk
+Version: 1.1.6
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 28456
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./repo/debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm.deb
+Size: 10214918
+MD5sum: f7c7d954d3f55774040a22de570d1534
+SHA1: 1f52d6dc3c7f3a019613965f122470f189af9805
+SHA256: 4d028138cbc29249624a3be0d1d6ce85f62457b98da07ba1573b395db99c9c30
+Section: Tweaks
+Description: A subtle shift from the familiar
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png
+Name: OrwellVK
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2b1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 16252
+Depends: mobilesubstrate
+Filename: ./repo/debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm64.deb
+Size: 6043932
+MD5sum: 2e80af4f0efe0c5a84c353c4b1a31635
+SHA1: acf2fd740d0e95d5b0123f06670c5c7c0f9b55c4
+SHA256: c02b53ec593541dde7394536378e26caafbdf74ffe15339be8e232e535514ea6
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2b1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 16252
+Depends: mobilesubstrate
+Filename: ./repo/debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm64e.deb
+Size: 6046010
+MD5sum: 1743ec109e89bea5ef27951876a6a74a
+SHA1: d9dc19ecf85128ad3434173c38fd72cb2f379114
+SHA256: 5ba5c41ad1cc29aad56b258abb78a177ffba5178ce494306e1be01c997f759e9
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2b1
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 16252
+Depends: mobilesubstrate
+Filename: ./repo/debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm.deb
+Size: 6041640
+MD5sum: d577f5a5d764b17e6b374521ed1ab2fa
+SHA1: 3df923553bcfc308c7e9c1e46701075bec804fd0
+SHA256: 06cf88b03076572700b65bdfc41baba785fd12667ceffd696706d9dc24ad7b97
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.3.1
+Architecture: iphoneos-arm
+Maintainer: dayanch96 & ginsu
+Installed-Size: 19208
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./repo/debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm.deb
+Size: 7456448
+MD5sum: 9179b61b5ca8cbdee8b34b28b9e40803
+SHA1: 41a28373f68d452658d660a0edba018ffb766ee3
+SHA256: 425ea8e49e11f3d687e4ef47a2b7ccadbb83af30c3df4573f23d4c058bd79e9d
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.3.1
+Architecture: iphoneos-arm64e
+Maintainer: dayanch96 & ginsu
+Installed-Size: 19204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./repo/debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64e.deb
+Size: 7455378
+MD5sum: e8b75c25752e3e756630349bc595540a
+SHA1: 37880768f67e673d4c6fd0b569ca9006b4c4ddf1
+SHA256: 4cfeccd10ec61309fa50efa461c927d79f1d701c0c5750a8d5573858ef299ca9
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.3.1
+Architecture: iphoneos-arm64
+Maintainer: dayanch96 & ginsu
+Installed-Size: 19208
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./repo/debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64.deb
+Size: 7456384
+MD5sum: 050b7db1c4b2d9a33a9a54b9e583034e
+SHA1: 3a3cb2e9bdc3940cff2df461f7f2cd06c938e97d
+SHA256: b95f1299e0efff27f0448c9fe5bdc009acf3bcf61ac02fa8f741c05da0f1b41c
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
