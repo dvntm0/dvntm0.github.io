@@ -1,10 +1,26 @@
 Package: com.dvntm.waccexport
 Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./repo/debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm64e.deb
+Size: 5142
+MD5sum: 2649e24eef4ab5f99ede5e8a63bc9657
+SHA1: 05723dc12156dcdb7c79b11604b8d5951b984cc6
+SHA256: 922bf1de5cf4369d6f7c970afc8ec5178333145ace9f73040d1ef358ee94e332
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: dvntm
+Name: WAChatContactsExport
+
+Package: com.dvntm.waccexport
+Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm64.deb
+Filename: ./repo/debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm64.deb
 Size: 5206
 MD5sum: be0b2929f8e77b882125702c6ba5eae2
 SHA1: cb94fbc119f7ecba076a94ff9111d31258a9ab12
@@ -20,27 +36,11 @@ Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm.deb
+Filename: ./repo/debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm.deb
 Size: 5132
 MD5sum: 68206fe40c9829c103e69f5cc3db1ab3
 SHA1: 785b23638c70a7214469b719225cb6e6ac8bdb7c
 SHA256: cae2643509b5d25a30473232aeea3b8fb3badbc4031c880cba859356e6919fa2
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: dvntm
-Name: WAChatContactsExport
-
-Package: com.dvntm.waccexport
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: dvntm
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/wachatcontactsexport/com.dvntm.waccexport_0.0.1_iphoneos-arm64e.deb
-Size: 5142
-MD5sum: 2649e24eef4ab5f99ede5e8a63bc9657
-SHA1: 05723dc12156dcdb7c79b11604b8d5951b984cc6
-SHA256: 922bf1de5cf4369d6f7c970afc8ec5178333145ace9f73040d1ef358ee94e332
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: dvntm
