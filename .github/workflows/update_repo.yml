@@ -14,13 +14,13 @@ jobs:
       - name: Install dpkg
         run: sudo apt-get update && sudo apt-get install -y dpkg
       - name: Generate Packages
-        run: dpkg-scanpackages -m ./debs > Packages
+        run: dpkg-scanpackages -m ./repo/debs > ./repo/Packages
       - name: Compress Packages
-        run: bzip2 -fk Packages
+        run: bzip2 -fk ./repo/Packages
       - name: Commit changes
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add Packages Packages.bz2
+          git add repo/Packages repo/Packages.bz2
           git commit -m 'Update Packages and Packages.bz2' || echo "No changes to commit"
           git push
