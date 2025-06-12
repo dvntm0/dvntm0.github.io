@@ -1,10 +1,118 @@
+Package: com.dvntm.flow
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: dvntm, nowesr1
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/flow/com.dvntm.flow_1.0_iphoneos-arm64e.deb
+Size: 228062
+MD5sum: c249a6b9be75ca83dde644867ccd1272
+SHA1: 51dfeb6f1b8c0f3a6469a641a44244ff6e839fb6
+SHA256: 53b3afbd891ecd26a835279dad665d5b481c66183c3244aec97daa7a07d3120e
+Section: Tweaks
+Description: A lightweight Messenger enhancer
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png
+Name: Flow for Messenger
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Flow/main/Sileo/depiction.json
+
+Package: com.dvntm.flow
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: dvntm, nowesr1
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/flow/com.dvntm.flow_1.0_iphoneos-arm.deb
+Size: 228538
+MD5sum: 72962d7f19ddff4e60814a54490c1d86
+SHA1: b398f1be3cb22c81e5e325b2e40e2aa07c640924
+SHA256: c80a1a540cc9382636da60014babe7087bb47a6a435f94f7b9d714109e8c2bab
+Section: Tweaks
+Description: A lightweight Messenger enhancer
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png
+Name: Flow for Messenger
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Flow/main/Sileo/depiction.json
+
+Package: com.dvntm.flow
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: dvntm, nowesr1
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/flow/com.dvntm.flow_1.0_iphoneos-arm64.deb
+Size: 228568
+MD5sum: 244193e84937b8f34d08aef785d088e5
+SHA1: f843c1c4f73d303a936c471b7ec27acf0198ed3a
+SHA256: c85718f1b8d78683e577a5b4b2b1ae36d6fd4362f0d7b9d8512781be55e7da97
+Section: Tweaks
+Description: A lightweight Messenger enhancer
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png
+Name: Flow for Messenger
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Flow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: dvntm, nowesr1
+Installed-Size: 1248
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.0_iphoneos-arm64e.deb
+Size: 683950
+MD5sum: 194804724eb33d1404e25187b8eb7456
+SHA1: a4335a2e1721b729a349638c7feb7c9ae1a39411
+SHA256: 95862162fe62b98bee57e44c6d1056f74c3ca97de0d876f86fcdba121fa35796
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: dvntm, nowesr1
+Installed-Size: 1248
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.0_iphoneos-arm.deb
+Size: 685238
+MD5sum: 510b8ca6c4b0faea6e0f20edc222ff82
+SHA1: 417d4b0761b85e5b07a4081605ad35381fe01daf
+SHA256: 93f8b9528079e7d3f3b98e2b5bd53f525d4c5864b21247136d9dbff2f4e9bc0d
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: dvntm, nowesr1
+Installed-Size: 1248
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.0_iphoneos-arm64.deb
+Size: 685718
+MD5sum: f699be6ea557226c19508f70097b8728
+SHA1: 79d479b1d4f99bf45b5a33ba66694b1fd3ff9660
+SHA256: e8de653de9c1dc383c2a617807a32ccbbd2b4c30a67fadcbacae7860ef2f6f7d
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
 Package: com.dvntm.infuseplus
 Version: 2.2
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 1132
 Depends: mobilesubstrate
-Filename: ./repo/debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm64.deb
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm64.deb
 Size: 405960
 MD5sum: ffe1aa91502cfdac7a7d210bb02b7874
 SHA1: 8e90feedc7e8bc7e28122d84480f9495a94a158f
@@ -22,7 +130,7 @@ Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 1132
 Depends: mobilesubstrate
-Filename: ./repo/debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm64e.deb
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm64e.deb
 Size: 405142
 MD5sum: 57a609f56321d15bd837b4810d23c2ce
 SHA1: 859acacaa3b45ac03a005f15fb4d1e290a74155c
@@ -40,7 +148,7 @@ Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 1132
 Depends: mobilesubstrate
-Filename: ./repo/debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm.deb
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.2_iphoneos-arm.deb
 Size: 406180
 MD5sum: 036247ace1807ebf3b562eceb2165e90
 SHA1: 8af9ae8ea15cc0783b37e59a9faf270719c8b350
@@ -58,7 +166,7 @@ Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 28456
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm64e.deb
+Filename: debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm64e.deb
 Size: 10212080
 MD5sum: 3e979e15dc79773e5a309cd3b1bbec78
 SHA1: 8970d363737f8bbcbea83339f21d33e187eab807
@@ -76,7 +184,7 @@ Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 28456
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm64.deb
+Filename: debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm64.deb
 Size: 10209882
 MD5sum: 4aed6d052b4883e4715e501156c32cac
 SHA1: 6b64c1b8b187ecc1971c96e7cc448e218f753fbd
@@ -94,7 +202,7 @@ Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 28456
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm.deb
+Filename: debs/orwellvk/com.dvntm.ovk_1.1.6_iphoneos-arm.deb
 Size: 10214918
 MD5sum: f7c7d954d3f55774040a22de570d1534
 SHA1: 1f52d6dc3c7f3a019613965f122470f189af9805
@@ -112,7 +220,7 @@ Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 16252
 Depends: mobilesubstrate
-Filename: ./repo/debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm64.deb
+Filename: debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm64.deb
 Size: 6043932
 MD5sum: 2e80af4f0efe0c5a84c353c4b1a31635
 SHA1: acf2fd740d0e95d5b0123f06670c5c7c0f9b55c4
@@ -130,7 +238,7 @@ Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 16252
 Depends: mobilesubstrate
-Filename: ./repo/debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm64e.deb
+Filename: debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm64e.deb
 Size: 6046010
 MD5sum: 1743ec109e89bea5ef27951876a6a74a
 SHA1: d9dc19ecf85128ad3434173c38fd72cb2f379114
@@ -148,7 +256,7 @@ Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 16252
 Depends: mobilesubstrate
-Filename: ./repo/debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm.deb
+Filename: debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm.deb
 Size: 6041640
 MD5sum: d577f5a5d764b17e6b374521ed1ab2fa
 SHA1: 3df923553bcfc308c7e9c1e46701075bec804fd0
@@ -166,7 +274,7 @@ Architecture: iphoneos-arm
 Maintainer: dayanch96 & ginsu
 Installed-Size: 19208
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm.deb
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm.deb
 Size: 7456448
 MD5sum: 9179b61b5ca8cbdee8b34b28b9e40803
 SHA1: 41a28373f68d452658d660a0edba018ffb766ee3
@@ -184,7 +292,7 @@ Architecture: iphoneos-arm64e
 Maintainer: dayanch96 & ginsu
 Installed-Size: 19204
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64e.deb
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64e.deb
 Size: 7455378
 MD5sum: e8b75c25752e3e756630349bc595540a
 SHA1: 37880768f67e673d4c6fd0b569ca9006b4c4ddf1
@@ -202,7 +310,7 @@ Architecture: iphoneos-arm64
 Maintainer: dayanch96 & ginsu
 Installed-Size: 19208
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./repo/debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64.deb
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64.deb
 Size: 7456384
 MD5sum: 050b7db1c4b2d9a33a9a54b9e583034e
 SHA1: 3a3cb2e9bdc3940cff2df461f7f2cd06c938e97d

@@ -17,7 +17,9 @@ jobs:
       - name: Install dpkg
         run: sudo apt-get update && sudo apt-get install -y dpkg
       - name: Generate Packages
-        run: dpkg-scanpackages -m ./repo/debs > ./repo/Packages
+        run: |
+          cd repo
+          dpkg-scanpackages -m debs > Packages
       - name: Compress Packages
         run: bzip2 -fk ./repo/Packages
       - name: Commit changes
