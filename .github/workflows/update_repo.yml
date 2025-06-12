@@ -1,0 +1,26 @@
+name: Auto-update sileo repo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install dpkg
+        run: sudo apt-get update && sudo apt-get install -y dpkg
+      - name: Generate Packages
+        run: dpkg-scanpackages -m ./debs > Packages
+      - name: Compress Packages
+        run: bzip2 -fk Packages
+      - name: Commit changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add Packages Packages.bz2
+          git commit -m 'Update Packages and Packages.bz2' || echo "No changes to commit"
+          git push
