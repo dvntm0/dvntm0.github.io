@@ -9,10 +9,10 @@
     <meta property="og:type" content="object">
     <meta property="og:title" content="Dan's Workshop">
     <meta property="og:image" content="https://raw.githubusercontent.com/dvntm0/dvntm0.github.io/refs/heads/main/img/header.png">
-    <meta property="og:description" content="All Dan's repositories in on place">
+    <meta property="og:description" content="All Dan's repositories in one place">
     <meta property="og:site_name" content="Dan's Workshop">
     <meta property="og:updated_time" content="1733876108">
-    <meta property="og:image:alt" content="All Dan's repositories in on place">
+    <meta property="og:image:alt" content="All Dan's repositories in one place">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,113 +63,156 @@
             width: 25px;
             height: 25px;
         }
+        .segmented-control {
+            display: flex;
+            justify-content: center;
+            margin: 20px auto;
+            width: 200px;
+            background-color: #333;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .segmented-control button {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .segmented-control button.active {
+            background-color: #555;
+        }
+        .segmented-control button:hover {
+            background-color: #444;
+        }
+        .repo-section {
+            display: none;
+        }
+        .repo-section.active {
+            display: flex;
+        }
     </style>
 </head>
 <body>
     <h1>Dan's Workshop Repository</h1>
-    <div class="container">
-        <div class="link">
-            <a href="sileo://source/https://dvntm0.github.io/repo" target="_blank">
-                <img class="icon" src="img/sileo.png" alt="Add to Sileo">
-            </a>
-            <p class="description">Open in Sileo</p>
-        </div>
 
-        <div class="link">
-            <a href="zbra://sources/https://dvntm0.github.io/repo" target="_blank">
-                <img class="icon" src="img/zebra.png" alt="Add to Zebra">
-            </a>
-            <p class="description">Open in Zebra</p>
-        </div>
+    <div class="segmented-control">
+        <button class="segment active" onclick="showSection('sideload')">Sideload</button>
+        <button class="segment" onclick="showSection('jailbreak')">Jailbreak</button>
+    </div>
 
+    <div id="sideload" class="container repo-section active">
         <div class="link">
             <a href="https://dvntm0.github.io/altstore" target="_blank">
                 <img class="icon" src="img/altstore.png" alt="Add to AltStore">
             </a>
             <p class="description">Open in AltStore</p>
         </div>
-
         <div class="link">
             <a href="https://dvntm0.github.io/feather" target="_blank">
                 <img class="icon" src="img/feather.png" alt="Add to Feather">
             </a>
             <p class="description">Open in Feather</p>
         </div>
-
         <div class="link">
             <a href="https://dvntm0.github.io/trollapps" target="_blank">
                 <img class="icon" src="img/trollapps.png" alt="Add to TrollApps">
             </a>
             <p class="description">Open in TrollApps</p>
         </div>
-
         <div class="link">
             <a href="https://dvntm0.github.io/sidestore" target="_blank">
                 <img class="icon" src="img/sidestore.png" alt="Add to SideStore">
             </a>
             <p class="description">Open in SideStore</p>
         </div>
-
         <div class="link">
             <a href="https://dvntm0.github.io/esign" target="_blank">
                 <img class="icon" src="img/esign.png" alt="Add to ESign">
             </a>
             <p class="description">Open in ESign</p>
         </div>
-
         <div class="link">
             <a href="https://dvntm0.github.io/appdb" target="_blank">
                 <img class="icon" src="img/appdb.png" alt="Add to appdb">
             </a>
             <p class="description">Open in appdb</p>
         </div>
-
         <div class="link">
             <a href="https://dvntm0.github.io/scarlet" target="_blank">
                 <img class="icon" src="img/scarlet.png" alt="Add to Scarlet">
             </a>
             <p class="description">Open in Scarlet</p>
         </div>
-
         <div class="link">
-            <img class="icon" src="img/altstore.png" alt="Copy Link" onclick="copyToClipboard('https://github.com/dvntm0/AltStore/raw/refs/heads/main/repo.json', 'AltStore', '1. Open &quot;AltStore&quot; app and select &quot;Sources&quot; tab\n2. Tap to &quot;+&quot; button in the top-left corner and paste copied link')">
+            <img class="icon" src="img/altstore.png" alt="Copy Link" onclick="copyToClipboard('https://github.com/dvntm0/AltStore/raw/refs/heads/main/repo.json', 'AltStore', '1. Open \"AltStore\" app and select \"Sources\" tab\n2. Tap to \"+\" button in the top-left corner and paste copied link')">
             <p class="description">Copy AltStore Link</p>
         </div>
-
         <div class="link">
-            <img class="icon" src="img/krava.png" alt="Copy Link" onclick="copyToClipboard('https://github.com/dvntm0/AltStore/raw/refs/heads/main/feather.json', 'KravaSigner', '1. Open &quot;KravaSigner&quot; app and tap to &quot;Leaf&quot; icon\n2. Select &quot;Add Repository&quot; and paste copied link')">
+            <img class="icon" src="img/krava.png" alt="Copy Link" onclick="copyToClipboard('https://github.com/dvntm0/AltStore/raw/refs/heads/main/feather.json', 'KravaSigner', '1. Open \"KravaSigner\" app and tap to \"Leaf\" icon\n2. Select \"Add Repository\" and paste copied link')">
             <p class="description">Copy KravaSigner Link</p>
         </div>
-
         <div class="link">
-            <img class="icon" src="img/gbox.png" alt="Copy Link" onclick="copyToClipboard('https://github.com/dvntm0/AltStore/raw/refs/heads/main/gbox.json', 'GBox', '1. Open &quot;GBox&quot; app and select &quot;Sources&quot; tab\n2. Tap to &quot;Add App Source&quot; and paste copied link')">
+            <img class="icon" src="img/gbox.png" alt="Copy Link" onclick="copyToClipboard('https://github.com/dvntm0/AltStore/raw/refs/heads/main/gbox.json', 'GBox', '1. Open \"GBox\" app and select \"Sources\" tab\n2. Tap to \"Add App Source\" and paste copied link')">
             <p class="description">Copy GBox Link</p>
         </div>
     </div>
 
-    <h2>Сontacts</h2>
-    <div class="сontainer contacts">
+    <div id="jailbreak" class="container repo-section">
+        <div class="link">
+            <a href="sileo://source/https://dvntm0.github.io/repo" target="_blank">
+                <img class="icon" src="img/sileo.png" alt="Add to Sileo">
+            </a>
+            <p class="description">Open in Sileo</p>
+        </div>
+        <div class="link">
+            <a href="zbra://sources/add/https://dvntm0.github.io/repo" target="_blank">
+                <img class="icon" src="img/zebra.png" alt="Add to Zebra">
+            </a>
+            <p class="description">Open in Zebra</p>
+        </div>
+        <div class="link">
+            <a href="cydia://url/https://dvntm0.github.io/repo" target="_blank">
+                <img class="icon" src="img/cydia.png" alt="Add to Cydia">
+            </a>
+            <p class="description">Open in Cydia</p>
+        </div>
+        <div class="link">
+            <a href="installer://add/repo=https://dvntm0.github.io/repo" target="_blank">
+                <img class="icon" src="img/installer.png" alt="Add to Installer">
+            </a>
+            <p class="description">Open in Installer</p>
+        </div>
+    </div>
+
+    <h2>Contacts</h2>
+    <div class="container contacts">
         <div class="link">
             <a href="https://x.com/dayanch96" target="_blank">
                 <img class="icon" src="img/x.png" alt="Twitter">
             </a>
         </div>
-
         <div class="link">
             <a href="https://discord.gg/VN9ZSeMhEW" target="_blank">
                 <img class="icon" src="img/discord.png" alt="Discord">
             </a>
         </div>
-
         <div class="link">
             <a href="https://t.me/dvntms" target="_blank">
                 <img class="icon" src="img/telegram.png" alt="Telegram">
             </a>
         </div>
-
         <div class="link">
             <a href="https://www.patreon.com/dayanch96" target="_blank">
                 <img class="icon" src="img/patreon.png" alt="Patreon">
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://http://coff.ee/dayanch96" target="_blank">
+                <img class="icon" src="img/coffee.png" alt="Buy Me A Coffee">
             </a>
         </div>
     </div>
@@ -178,6 +221,14 @@
         function copyToClipboard(link, name, instruction) {
             navigator.clipboard.writeText(link);
             alert(`Copied link for the ${name}:\n${link}\n\n${instruction}`);
+        }
+
+        function showSection(section) {
+            document.querySelectorAll('.repo-section').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.segment').forEach(el => el.classList.remove('active'));
+            
+            document.getElementById(section).classList.add('active');
+            document.querySelector(`button[onclick="showSection('${section}')"]`).classList.add('active');
         }
     </script>
 </body>
