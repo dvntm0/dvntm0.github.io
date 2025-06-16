@@ -6,3 +6,21 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Dan's Workshop
+MD5Sum:
+ 0ef64036736a9003065267a60d83f907 14089 Packages
+ 5a63a63642f00056d518bdb5ea8ce37b 3014 Packages.bz2
+ 009ea751b4299643813ca3f6acac8bd4 2912 Packages.gz
+ 61b4c047d57a9c390a7349afc83033cf 2692 Packages.xz
+ 731c754ae8170f29f74d86a37aa3b8f9 2823 Packages.zst
+SHA1:
+ 5a29aa03dae96c43462775f6a4a1d25b9be59a32 14089 Packages
+ 962c610aa338fd4bc7a39cbc3322e343c52c7456 3014 Packages.bz2
+ 1a3703cd0d5fc499383393ad3a11933fc181f1ce 2912 Packages.gz
+ 4f33e7ab0e8718bc07186b5bc0839ebb7715db06 2692 Packages.xz
+ d5d48cb5d32ea6639f9cfc35cf42434f320db3d1 2823 Packages.zst
+SHA256:
+ 372091aed0d54128c3782c08e3feabc3bf101e98a2436175fea2ba517d89201a 14089 Packages
+ cdfe3c492aef9024798763d640c0e4e8f1c477ace07ebeb0a61cf97ba1cc3d98 3014 Packages.bz2
+ 80ecb80e83d5a36b46f963156199b8feb4f13ec791c798a7dd79942a39c5c784 2912 Packages.gz
+ 1c46c33eadb04c1f1d98cc6efaf7c1e1ea2efa1df78e934a9480fdb030b9050d 2692 Packages.xz
+ 7f3bd5eb00da14cef7a0fa063a24b7e8306e3f9b1b35eb714a155483f626c75d 2823 Packages.zst
