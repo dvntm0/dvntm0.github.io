@@ -33,6 +33,45 @@ jobs:
           xz -fk Packages
           zstd -f Packages -o Packages.zst
 
+      - name: Update hashes
+        run: |
+          cd repo
+          cat > Release.tmp << EOL
+          Origin: Dan's Workshop
+          Label: Dan's Workshop
+          Suite: stable
+          Version: 1.0
+          Codename: ios
+          Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+          Components: main
+          Description: Dan's Workshop
+          EOL
+          echo "MD5Sum:" >> Release.tmp
+          for file in Packages Packages.bz2 Packages.gz Packages.xz Packages.zst; do
+            if [ -f "$file" ]; then
+              md5=$(md5sum "$file" | awk '{print $1}')
+              size=$(stat -c %s "$file")
+              echo " $md5 $size $file" >> Release.tmp
+            fi
+          done
+          echo "SHA1:" >> Release.tmp
+          for file in Packages Packages.bz2 Packages.gz Packages.xz Packages.zst; do
+            if [ -f "$file" ]; then
+              sha1=$(sha1sum "$file" | awk '{print $1}')
+              size=$(stat -c %s "$file")
+              echo " $sha1 $size $file" >> Release.tmp
+            fi
+          done
+          echo "SHA256:" >> Release.tmp
+          for file in Packages Packages.bz2 Packages.gz Packages.xz Packages.zst; do
+            if [ -f "$file" ]; then
+              sha256=$(sha256sum "$file" | awk '{print $1}')
+              size=$(stat -c %s "$file")
+              echo " $sha256 $size $file" >> Release.tmp
+            fi
+          done
+          mv Release.tmp Release
+
       - name: Commit changes
         run: |
           git config --global user.name 'GitHub Action'
