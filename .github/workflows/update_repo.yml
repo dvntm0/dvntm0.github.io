@@ -1,4 +1,4 @@
-name: Auto-update sileo repo
+name: Auto-update Jailbreak Repo
 
 on:
   push:
@@ -14,18 +14,29 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Install dpkg
-        run: sudo apt-get update && sudo apt-get install -y dpkg
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg bzip2 gzip xz-utils zstd
+
       - name: Generate Packages
         run: |
           cd repo
           dpkg-scanpackages -m debs > Packages
+
       - name: Compress Packages
-        run: bzip2 -fk ./repo/Packages
+        run: |
+          cd repo
+          bzip2 -fk Packages
+          gzip -fk Packages
+          xz -fk Packages
+          zstd -f Packages -o Packages.zst
+
       - name: Commit changes
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add repo/Packages repo/Packages.bz2
-          git commit -m 'Update Packages and Packages.bz2' || echo "No changes to commit"
+          git add repo/Packages repo/Packages.bz2 repo/Packages.gz repo/Packages.xz repo/Packages.zst repo/Release
+          git commit -m 'Update Packages, compressed variants, and Release with hashes' || echo "No changes to commit"
           git push
