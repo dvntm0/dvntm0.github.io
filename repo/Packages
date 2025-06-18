@@ -160,6 +160,60 @@ Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/ico
 Name: Glow for Facebook
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
 
+Package: com.dvntm.glow
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm, nowesr1
+Installed-Size: 20028
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.1_iphoneos-arm64.deb
+Size: 7798976
+MD5sum: e206e5e474b36f57c3b0212736c99e29
+SHA1: ba8d81b9ea99d545b72889fe1f0d7ecb0da3bd77
+SHA256: 65eef5bd3a5ab191c24683bf8b8e941ad7b839aadb721429299eca9a6e596bc6
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm, nowesr1
+Installed-Size: 20028
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.1_iphoneos-arm64e.deb
+Size: 7804746
+MD5sum: 606f5498fa07ed8aef2d86c40c17e585
+SHA1: cf01a5e2a1b0ae8baa0f0da2f5578950c798974c
+SHA256: cca38835ccee758d8735c5f04e57b3f96ab0524799342eec6fb3fc240d3359a0
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: dvntm, nowesr1
+Installed-Size: 20028
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.1_iphoneos-arm.deb
+Size: 7803030
+MD5sum: 49216692e408186fc484b9a2c399a58d
+SHA1: 8d27e9df11a7282fb0919b8c2f59600408f90dae
+SHA256: ef1dbe99915e0207982bb3901f81ca1f149bb0b34e031fe2ff6038624dced7df
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
 Package: com.dvntm.infuseplus
 Version: 2.2
 Architecture: iphoneos-arm64
