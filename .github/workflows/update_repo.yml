@@ -16,9 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y dpkg bzip2 gzip xz-utils zstd apt-utils
+        run: sudo apt-get update && sudo apt-get install -y dpkg
 
       - name: Generate Packages
         run: |
@@ -26,22 +24,12 @@ jobs:
           dpkg-scanpackages -m debs > Packages
 
       - name: Compress Packages
-        run: |
-          cd repo
-          bzip2 -fk Packages
-          gzip -fk Packages
-          xz -fk Packages
-          zstd -f Packages -o Packages.zst
-
-      - name: Generate Release
-        run: |
-          cd repo
-          apt-ftparchive -c Release.conf release . > Release
+        run: bzip2 -fk ./repo/Packages
 
       - name: Commit changes
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add repo/Packages repo/Packages.bz2 repo/Packages.gz repo/Packages.xz repo/Packages.zst repo/Release
-          git commit -m 'Update Packages, compressed variants, and Release with hashes' || echo "No changes to commit"
+          git add repo/Packages repo/Packages.bz2
+          git commit -m 'Update Packages' || echo "No changes to commit"
           git push
