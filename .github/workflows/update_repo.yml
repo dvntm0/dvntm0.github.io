@@ -36,7 +36,7 @@ jobs:
       - name: Generate Release
         run: |
           cd repo
-          apt-ftparchive release . > Release
+          apt-ftparchive -c Release.conf release . > Release
 
       - name: Commit changes
         run: |
