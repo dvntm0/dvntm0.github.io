@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg bzip2 gzip xz-utils zstd
+          sudo apt-get install -y dpkg bzip2 gzip xz-utils zstd apt-utils
 
       - name: Generate Packages
         run: |
@@ -32,6 +32,11 @@ jobs:
           gzip -fk Packages
           xz -fk Packages
           zstd -f Packages -o Packages.zst
+
+      - name: Generate Release
+        run: |
+          cd repo
+          apt-ftparchive release . > Release
 
       - name: Commit changes
         run: |
