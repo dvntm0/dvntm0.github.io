@@ -30,6 +30,6 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add repo/Packages repo/Packages.bz2
+          git add -f repo/Packages repo/Packages.bz2
           git commit -m 'Update Packages' || echo "No changes to commit"
           git push
