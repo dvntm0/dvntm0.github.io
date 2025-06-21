@@ -390,6 +390,17 @@
       document.getElementById(section).classList.add("active");
       document.querySelector(`button[onclick="showSection('${section}')"]`).classList.add("active");
     }
+
+    function navToJb() {
+      const hash = window.location.hash.toLowerCase();
+      if (hash === '#jb') {
+        showSection('jailbreak');
+      } else {
+        showSection('sideload');
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', navToJb);
   </script>
 </body>
 </html>
