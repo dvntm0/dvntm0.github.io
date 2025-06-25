@@ -108,6 +108,7 @@
       align-items: center;
       justify-content: center;
       z-index: 9999;
+      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
       transition: opacity 0.3s;
       pointer-events: none;
       opacity: 0;
@@ -129,16 +130,18 @@
       background: #000;
       border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 16px;
-      padding: 20px 24px 24px;
-      width: 340px;
-      max-height: 90vh;
-      transform: scale(0.95);
-      opacity: 0;
-      transition: transform 0.3s, opacity 0.3s;
-      z-index: 1;
+      padding: 16px 20px;
+      width: calc(100% - 32px);
+      max-width: 340px;
+      max-height: calc(100dvh - 60px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
       display: flex;
       flex-direction: column;
       overflow: hidden;
+      transform: scale(0.95);
+      opacity: 0;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      z-index: 1;
+      box-sizing: border-box;
     }
 
     #custom-modal.show .modal-box {
@@ -150,7 +153,6 @@
       .modal-box {
         width: calc(100vw - 50px);
         height: calc(100vh - 50px);
-        max-height: none;
       }
     }
 
@@ -163,6 +165,7 @@
       border: none;
       color: #fff;
       cursor: pointer;
+      z-index: 3;
     }
 
     .modal-scroll {
@@ -249,6 +252,7 @@
       border-radius: 12px;
       flex-shrink: 0;
       scroll-snap-align: start;
+      border: 1px solid rgba(255, 255, 255, 0.15);
     }
 
     .modal-button {
