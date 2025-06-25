@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Dan's IPAs</title>
+  <link rel="icon" href="img/favicon.png" />
+  <meta name="description" content="Direct IPA downloads for Dan's projects" />
+
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --fg: #fff;
+      --fg2: #ccc;
+      --cell: #1b1b1b;
+      --cell2: #262626;
+      --accent: #007aff;
+      --r: 14px;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px 16px 80px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      margin-bottom: 24px;
+      font-size: 1.6rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    #ipa-list {
+      width: 100%;
+      max-width: 560px;
+    }
+
+    .ipa-cell {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 16px;
+      background: var(--cell);
+      border-radius: var(--r);
+      margin-bottom: 12px;
+      transition: background 0.25s;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .ipa-cell:hover {
+      background: var(--cell2);
+    }
+
+    .ipa-cell img {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      flex-shrink: 0;
+    }
+
+    .ipa-info {
+      flex: 1;
+    }
+
+    .ipa-title {
+      margin: 0 0 4px;
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+
+    .ipa-meta {
+      margin: 0;
+      font-size: 0.85rem;
+      color: var(--fg2);
+    }
+
+    .ipa-date {
+      margin: 0;
+      font-size: 0.75rem;
+      color: var(--fg2);
+    }
+
+    .ipa-download {
+      padding: 10px 14px;
+      background: var(--accent);
+      border: none;
+      border-radius: var(--r);
+      color: #fff;
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+
+    .ipa-download:hover {
+      background: #0066d6;
+    }
+
+    #custom-modal {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      transition: opacity 0.3s;
+      pointer-events: none;
+      opacity: 0;
+    }
+
+    #custom-modal.show {
+      pointer-events: auto;
+      opacity: 1;
+    }
+
+    .modal-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-box {
+      position: relative;
+      background: #000;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      padding: 20px 24px 24px;
+      width: 340px;
+      max-height: 90vh;
+      transform: scale(0.95);
+      opacity: 0;
+      transition: transform 0.3s, opacity 0.3s;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    #custom-modal.show .modal-box {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    @media (max-width: 600px) {
+      .modal-box {
+        width: calc(100vw - 50px);
+        height: calc(100vh - 50px);
+        max-height: none;
+      }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 22px;
+      background: transparent;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .modal-scroll {
+      overflow-y: auto;
+      flex: 1;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+
+    .modal-scroll::-webkit-scrollbar {
+      display: none;
+    }
+
+    .modal-fade-top,
+    .modal-fade-bottom {
+      position: absolute;
+      left: 0;
+      right: 0;
+      pointer-events: none;
+      z-index: 2;
+      opacity: 1;
+      transition: opacity 0.2s ease;
+    }
+
+    .modal-fade-top {
+      top: 16px;
+      height: 36px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    }
+
+    .modal-fade-bottom {
+      bottom: 56px;
+      height: 36px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .modal-header img {
+      width: 56px;
+      height: 56px;
+      border-radius: 14px;
+    }
+
+    .modal-title {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    .modal-meta {
+      margin: 2px 0 0;
+      font-size: 0.85rem;
+      color: #ccc;
+    }
+
+    .modal-desc {
+      white-space: pre-line;
+      line-height: 1.4;
+      margin: 0 0 16px;
+    }
+
+    .modal-shots {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      padding: 0 4px 4px;
+      margin-bottom: 20px;
+      scrollbar-width: none;
+    }
+
+    .modal-shots::-webkit-scrollbar {
+      display: none;
+    }
+
+    .modal-shots img {
+      width: 180px;
+      border-radius: 12px;
+      flex-shrink: 0;
+      scroll-snap-align: start;
+    }
+
+    .modal-button {
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      padding: 12px 0;
+      background: var(--accent);
+      border: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 500;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      z-index: 3;
+    }
+
+    .modal-button:hover {
+      background: #0066d6;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Dan's IPA Library</h1>
+  <div id="ipa-list"></div>
+
+  <div id="custom-modal">
+    <div class="modal-overlay" onclick="hideModal()"></div>
+    <div class="modal-box">
+      <div class="modal-fade-top"></div>
+      <div class="modal-fade-bottom"></div>
+
+      <button class="modal-close" onclick="hideModal()">×</button>
+      <div id="modal-content" class="modal-scroll"></div>
+      <a id="modal-action" class="modal-button" download>Download</a>
+    </div>
+  </div>
+
+  <script>
+    const REPO_JSON_URL = 'https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/repo.json';
+    const fmtSize = b => `${(b / 1048576).toFixed(1)} MB`;
+
+    const modalContent = document.getElementById('modal-content');
+    const fadeTop = document.querySelector('.modal-fade-top');
+    const fadeBottom = document.querySelector('.modal-fade-bottom');
+
+    function updateFadeVisibility() {
+      const { scrollTop, scrollHeight, clientHeight } = modalContent;
+      fadeTop.style.opacity = scrollTop > 0 ? '1' : '0';
+      fadeBottom.style.opacity = (scrollTop + clientHeight < scrollHeight) ? '1' : '0';
+    }
+
+    modalContent.addEventListener('scroll', updateFadeVisibility);
+
+    function showAppModal(app) {
+      const v = app.versions[0];
+      const shots = (app.screenshots || []).map(u => `<img src="${u}" loading="lazy">`).join('');
+
+      modalContent.innerHTML = `
+        <div class="modal-header">
+          <img src="${app.iconURL}" alt="">
+          <div>
+            <p class="modal-title">${app.name}</p>
+            <p class="modal-meta">v${v.version} • ${fmtSize(v.size)}</p>
+          </div>
+        </div>
+        <p class="modal-desc">${app.localizedDescription || app.subtitle || ''}</p>
+        ${shots ? `<div class="modal-shots">${shots}</div>` : ''}
+      `;
+
+      const shotsEl = modalContent.querySelector('.modal-shots');
+      if (shotsEl) shotsEl.scrollLeft = 0;
+
+      document.getElementById('modal-action').href = v.downloadURL;
+      document.getElementById('custom-modal').classList.add('show');
+
+      requestAnimationFrame(() => {
+        modalContent.scrollTop = 0;
+        updateFadeVisibility();
+      });
+    }
+
+    function hideModal() {
+      document.getElementById('custom-modal').classList.remove('show');
+    }
+
+    function formatDate(isoString) {
+      const date = new Date(isoString);
+      return date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+    }
+
+    async function loadIpaList() {
+      const apps = (await (await fetch(REPO_JSON_URL)).json()).apps;
+      const list = document.getElementById('ipa-list');
+
+      apps.forEach(app => {
+        const v = app.versions[0];
+        const cell = document.createElement('div');
+        cell.className = 'ipa-cell';
+        cell.innerHTML = `
+          <img src="${app.iconURL}" alt="${app.name}">
+          <div class="ipa-info">
+            <h3 class="ipa-title">${app.name}</h3>
+            <p class="ipa-meta">v${v.version} • ${fmtSize(v.size)}</p>
+            <p class="ipa-date">${formatDate(v.date)}</p>
+          </div>
+          <a class="ipa-download" href="${v.downloadURL}" download>Download</a>
+        `;
+        cell.querySelector('img').onclick =
+          cell.querySelector('.ipa-info').onclick = () => showAppModal(app);
+        list.appendChild(cell);
+      });
+    }
+
+    loadIpaList();
+  </script>
+</body>
+</html>
