@@ -35,12 +35,12 @@ Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 152
-Depends: mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
 Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm.deb
-Size: 3038
-MD5sum: aea61428f3dfbf5cb225523cd487bc8b
-SHA1: 5a7e8ec6e215b603ab858385e6d70056df52c73d
-SHA256: 7c5695d830a2a68af2d7d8669ceb263d221796b083b9931cf0f0fc7bd2b9a54f
+Size: 3056
+MD5sum: e1a0ca65b101b6a01f17b3aeadf4e5c3
+SHA1: 76abf9e75d71d47c89789dab83c234a602d47533
+SHA256: f7dffd6a10700b5818e3c77de2f0dd885a84f645d44083b4e90f594ca05706e1
 Section: Tweaks
 Description: No app icon in Now Playing and Control Center artworks
 Author: dvntm
