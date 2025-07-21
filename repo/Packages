@@ -37,14 +37,16 @@ Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm.deb
-Size: 2954
-MD5sum: 64a85a704120e10eb0bb776fb776f9dc
-SHA1: d1dc7b35a935ce64c884ba8eb91de18630bebcbc
-SHA256: 0fa1e537da013a3efadf1549b805079e755688f7c2546600030ed917e0337d9a
+Size: 3038
+MD5sum: aea61428f3dfbf5cb225523cd487bc8b
+SHA1: 5a7e8ec6e215b603ab858385e6d70056df52c73d
+SHA256: 7c5695d830a2a68af2d7d8669ceb263d221796b083b9931cf0f0fc7bd2b9a54f
 Section: Tweaks
 Description: No app icon in Now Playing and Control Center artworks
 Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/CCAppIcon/refs/heads/main/Sileo/icon.png
 Name: CCAppIcon
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/CCAppIcon/main/Sileo/depiction.json
 
 Package: com.dvntm.flow
 Version: 1.0
