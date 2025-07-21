@@ -1,3 +1,57 @@
+Package: com.dvntm.ccappicon
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
+Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm64e.deb
+Size: 3068
+MD5sum: 4efac06aa82633133f05df53f0123980
+SHA1: 8b18479053dee4af8f654eab3b6eba51f610fbd7
+SHA256: d2f40cc576fb2f341c6d71924f9e4c364f8cc38cba7b4e73406738c2fb59ac22
+Section: Tweaks
+Description: No app icon in Now Playing and Control Center artworks
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/CCAppIcon/refs/heads/main/Sileo/icon.png
+Name: CCAppIcon
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/CCAppIcon/main/Sileo/depiction.json
+
+Package: com.dvntm.ccappicon
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
+Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm64.deb
+Size: 3136
+MD5sum: b2d26b472c48385d86144087966fc4ae
+SHA1: 9f5ff4a9a5218ea9ccf147e89578d1c54e79c652
+SHA256: e24e4de9416ae090b68964ddea47f20c360403432ed6a99a056c12193fb80629
+Section: Tweaks
+Description: No app icon in Now Playing and Control Center artworks
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/CCAppIcon/refs/heads/main/Sileo/icon.png
+Name: CCAppIcon
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/CCAppIcon/main/Sileo/depiction.json
+
+Package: com.dvntm.ccappicon
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
+Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm.deb
+Size: 3060
+MD5sum: a910db857bc1c8575d0dea34dffcd64f
+SHA1: b99c929b90c81e72ebd0353d1b9149624d293142
+SHA256: 2cee269f2a54ff9542f5c3dcc4756abfbc4e8f56b0756ff8eec11e5ed74d5448
+Section: Tweaks
+Description: No app icon in Now Playing and Control Center artworks
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/CCAppIcon/refs/heads/main/Sileo/icon.png
+Name: CCAppIcon
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/CCAppIcon/main/Sileo/depiction.json
+
 Package: com.dvntm.flow
 Version: 1.0
 Architecture: iphoneos-arm
