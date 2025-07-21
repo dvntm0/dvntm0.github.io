@@ -480,6 +480,60 @@ Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Res
 Name: Infuse Plus
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
 
+Package: com.dvntm.oledkeyboard
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/oledkeyboard/com.dvntm.oledkeyboard_0.0.3_iphoneos-arm64.deb
+Size: 4678
+MD5sum: 1caa0f9782008648af074acdf765d806
+SHA1: 6e2cdc658fd67335b86a92934723fd87cef93086
+SHA256: 335c381e1df500fcc619666b0776202363f40fd9afc9c2e0a0c883f05b86c93c
+Section: Tweaks
+Description: OLED Dark Mode for iOS System Keyboard
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/icon.png
+Name: OledKeyboard
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OledKeyboard/main/Sileo/depiction.json
+
+Package: com.dvntm.oledkeyboard
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/oledkeyboard/com.dvntm.oledkeyboard_0.0.3_iphoneos-arm.deb
+Size: 4594
+MD5sum: 3f384a51e84cc3fe533eea9ad88e8cb5
+SHA1: d0e7b980a9661b4b4751ad28a5e8ec7c908a2924
+SHA256: 24219db320d8f471fd89a6a9a56801ea5d58253db0ea38627e3ccb2840545630
+Section: Tweaks
+Description: OLED Dark Mode for iOS System Keyboard
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/icon.png
+Name: OledKeyboard
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OledKeyboard/main/Sileo/depiction.json
+
+Package: com.dvntm.oledkeyboard
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/oledkeyboard/com.dvntm.oledkeyboard_0.0.3_iphoneos-arm64e.deb
+Size: 4608
+MD5sum: dbd57371fe368d0b9b068a29e8945ddf
+SHA1: 3332eb6944c76658cc3fb9be1f54b5bc82f18d91
+SHA256: 2bdc642e3615127829f84ae0630f10c66c2ec57dc6bae978667728a360675f9e
+Section: Tweaks
+Description: OLED Dark Mode for iOS System Keyboard
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OledKeyboard/refs/heads/main/Sileo/icon.png
+Name: OledKeyboard
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OledKeyboard/main/Sileo/depiction.json
+
 Package: com.dvntm.ovk
 Version: 1.1.6
 Architecture: iphoneos-arm64
