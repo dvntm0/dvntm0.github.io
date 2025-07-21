@@ -487,10 +487,10 @@ Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/oledkeyboard/com.dvntm.oledkeyboard_0.0.3_iphoneos-arm64.deb
-Size: 4678
-MD5sum: 1caa0f9782008648af074acdf765d806
-SHA1: 6e2cdc658fd67335b86a92934723fd87cef93086
-SHA256: 335c381e1df500fcc619666b0776202363f40fd9afc9c2e0a0c883f05b86c93c
+Size: 4686
+MD5sum: d5968de83a0ca009e37e5f6278080a02
+SHA1: f8a84ec76b7960e69361c88c9149e1036aa6ba47
+SHA256: c410e0680f67cf4da7cc8acd27f0d8449dc262fe3a87a4fef42a4dea5654cceb
 Section: Tweaks
 Description: OLED Dark Mode for iOS System Keyboard
 Author: dvntm
@@ -505,10 +505,10 @@ Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/oledkeyboard/com.dvntm.oledkeyboard_0.0.3_iphoneos-arm.deb
-Size: 4594
-MD5sum: 3f384a51e84cc3fe533eea9ad88e8cb5
-SHA1: d0e7b980a9661b4b4751ad28a5e8ec7c908a2924
-SHA256: 24219db320d8f471fd89a6a9a56801ea5d58253db0ea38627e3ccb2840545630
+Size: 4598
+MD5sum: 6aa42d3efda2bd357af550e3b1679bc0
+SHA1: 7863d1c38310dd2e7f2f971e73b719dbac383f28
+SHA256: b9b36e2698899b5e3b7aa2edd273263448a526f2a075bcd45ea19568c6684b4a
 Section: Tweaks
 Description: OLED Dark Mode for iOS System Keyboard
 Author: dvntm
@@ -523,10 +523,10 @@ Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/oledkeyboard/com.dvntm.oledkeyboard_0.0.3_iphoneos-arm64e.deb
-Size: 4608
-MD5sum: dbd57371fe368d0b9b068a29e8945ddf
-SHA1: 3332eb6944c76658cc3fb9be1f54b5bc82f18d91
-SHA256: 2bdc642e3615127829f84ae0630f10c66c2ec57dc6bae978667728a360675f9e
+Size: 4610
+MD5sum: b60abc51ab994dfd7d361458cfc88264
+SHA1: 8ff871793cdff1285cde2601b8b2cfa2b9fe0e7b
+SHA256: aa3bc82bfb7ca2d871ed8bc51b5e44af6dfe5e9471d42f913f88ce27dd19dcfa
 Section: Tweaks
 Description: OLED Dark Mode for iOS System Keyboard
 Author: dvntm
