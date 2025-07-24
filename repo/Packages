@@ -646,6 +646,60 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resourc
 Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
+Package: com.dvntm.ytlite
+Version: 5.2b2
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 16696
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2b2_iphoneos-arm64.deb
+Size: 6394072
+MD5sum: 139ab7ad80d26be160b8ae726ab5e55e
+SHA1: 480b7e436438442c5e62f679bd2a3a60f09e261f
+SHA256: b387c367e68c3cfe058fc7f2b5dd4d299cdd7c475a17243c43927ad6df6c10dc
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2b2
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 16696
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2b2_iphoneos-arm64e.deb
+Size: 6396580
+MD5sum: 4eb12f5da797d5fd8d2bef3b8880dde8
+SHA1: 0e4b9e1fc1de93849df3c1d38a7dd368f7f6f7de
+SHA256: fc8608ce581178b1c82ad8bbac3b373c58bfb0d17c78892e6affc9698ea53643
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2b2
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 16696
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2b2_iphoneos-arm.deb
+Size: 6401046
+MD5sum: a2ef90f6a20480cb9eb7b70b1eee6a10
+SHA1: f040c8128ef9390a66c7191f9fedeeb02815cd28
+SHA256: ee3bf057fd68fcc605e34779239aae5f394c0c65deb45cb9e18e57566658f627
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
 Package: com.ginsu.ytmusicultimate
 Version: 2.3.1
 Architecture: iphoneos-arm64e
