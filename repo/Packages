@@ -542,13 +542,13 @@ Package: com.dvntm.infuseplus
 Version: 2.3.1
 Architecture: iphoneos-arm64
 Maintainer: dvntm
-Installed-Size: 1140
+Installed-Size: 1156
 Depends: mobilesubstrate
 Filename: debs/infuseplus/com.dvntm.infuseplus_2.3.1_iphoneos-arm64.deb
-Size: 417248
-MD5sum: 4bdb4370cdbc989e401de3be47c3a25d
-SHA1: f7bee62c2cc315ad2de063b42150afc325dbb517
-SHA256: af048738d3a6e8bc8a91319cf0175f9b8ec35ae7fb776f44c0d5383c16e9024a
+Size: 422420
+MD5sum: 82575dea9882af4b5e9cdd6cce4eeab1
+SHA1: b61a8babdfe660ab8f8a6336d4b57ecdb6def825
+SHA256: 396167eb2efe817fa5042753a18f717ac14ffbd08f160b790f9330d22bb8d48d
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -560,13 +560,13 @@ Package: com.dvntm.infuseplus
 Version: 2.3.1
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
-Installed-Size: 1140
+Installed-Size: 1156
 Depends: mobilesubstrate
 Filename: debs/infuseplus/com.dvntm.infuseplus_2.3.1_iphoneos-arm64e.deb
-Size: 416724
-MD5sum: 58aa0d34e386d02f5351b22d73b27289
-SHA1: 48d308d7c51b275b7d8b0aa01190129c2370fbfe
-SHA256: 7ff728b6c584e424a43bb9cc0db6fa67a57e2225317bdac5a2af45995c1175c3
+Size: 421432
+MD5sum: c5e715e889e0cac3035dc4c16f108c92
+SHA1: 2c429ecc8486ee8afae65adcbe86383288cf8af9
+SHA256: 93619f352f308cd886eb17646db4785623c8b89ad79f6c05919d9d028f748632
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -578,13 +578,13 @@ Package: com.dvntm.infuseplus
 Version: 2.3.1
 Architecture: iphoneos-arm
 Maintainer: dvntm
-Installed-Size: 1140
+Installed-Size: 1156
 Depends: mobilesubstrate
 Filename: debs/infuseplus/com.dvntm.infuseplus_2.3.1_iphoneos-arm.deb
-Size: 416262
-MD5sum: 83325581d931234e8d4a638ae665415d
-SHA1: f329f154069a2f09b29d1b9a5cd7cf9f6beb3233
-SHA256: d3acf10bb2390b59bfece68285e523ea61ad6ad625dd39aeac46653fcb6a18b4
+Size: 421452
+MD5sum: cb2151d496388979f4b6369e57310482
+SHA1: b08ba6fa8dd15dd45a3851df831934f8e48dfa49
+SHA256: a8751ee8462e25625f99c56162ed7b649e94b24b47bee18b21ccc0c233daa0bb
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
