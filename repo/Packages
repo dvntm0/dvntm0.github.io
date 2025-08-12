@@ -592,6 +592,60 @@ Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Res
 Name: Infuse Plus
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
 
+Package: com.dvntm.infuseplus
+Version: 2.4
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 1216
+Depends: mobilesubstrate
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.4_iphoneos-arm64e.deb
+Size: 445362
+MD5sum: 04b837a7c4c38bec9ef818686f8599f2
+SHA1: 2ba0213508b819bb42d6870587fe6e93f5bb6f66
+SHA256: c6c5a9a282aaa944aa37e06c097bd6f68ede5b996260c046da8a648015cde60d
+Section: Tweaks
+Description: Enhancer for Infuse app
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+Name: Infuse Plus
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
+Package: com.dvntm.infuseplus
+Version: 2.4
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 1248
+Depends: mobilesubstrate
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.4_iphoneos-arm64.deb
+Size: 445656
+MD5sum: 67c941de7ada91ed71f1180b65ba8f77
+SHA1: a57d4b0be36e602826cf73e1e27586dc3df7280c
+SHA256: 1fd7b39a727cf4259797810ff8f2e020883f7feb5a17d543ded76e4dcc223183
+Section: Tweaks
+Description: Enhancer for Infuse app
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+Name: Infuse Plus
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
+Package: com.dvntm.infuseplus
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 1248
+Depends: mobilesubstrate
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.4_iphoneos-arm.deb
+Size: 445474
+MD5sum: f355a0e8f5891633a56047d942169144
+SHA1: 2e1c6103ae1b066a6035cfe2b82a4cdb4a672dfe
+SHA256: fe11aba6e3a65527c9f10e3e38c84013833c0df97344d2d8c89b4a276db983c5
+Section: Tweaks
+Description: Enhancer for Infuse app
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+Name: Infuse Plus
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
 Package: com.dvntm.oledkeyboard
 Version: 0.0.3
 Architecture: iphoneos-arm64e
