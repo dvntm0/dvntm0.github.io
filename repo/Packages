@@ -160,6 +160,60 @@ Icon: https://raw.githubusercontent.com/dayanch96/FastLock/refs/heads/main/Sileo
 Name: FastLock
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/depiction.json
 
+Package: com.dvntm.fastlock
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 836
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/fastlock/com.dvntm.fastlock_1.0_iphoneos-arm64e.deb
+Size: 380868
+MD5sum: 0b97bdf21eed1fb24e0ecd90559598fb
+SHA1: 3eba594c0b4448131f8269d554a7b9ab5d750165
+SHA256: 23002b1eb72a02bd12bf35cea3a665aa028c8a3677db7b79eada0c0dbf2c3d49
+Section: Tweaks
+Description: Lock your screen using gestures on SpringBoard
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/FastLock/refs/heads/main/Sileo/icon.png
+Name: FastLock
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/depiction.json
+
+Package: com.dvntm.fastlock
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 852
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/fastlock/com.dvntm.fastlock_1.0_iphoneos-arm64.deb
+Size: 381870
+MD5sum: 87c37246588a3ddd5f4f8ac368825c98
+SHA1: ae2aaff422673424da04be2630c1dad73da7cf8d
+SHA256: 5e09a75b3ac02abf4658712a9387974aae17f0a0d8e7ad3d036f63c918dad478
+Section: Tweaks
+Description: Lock your screen using gestures on SpringBoard
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/FastLock/refs/heads/main/Sileo/icon.png
+Name: FastLock
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/depiction.json
+
+Package: com.dvntm.fastlock
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 852
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/fastlock/com.dvntm.fastlock_1.0_iphoneos-arm.deb
+Size: 381912
+MD5sum: 49ca8792c3f3a94ab7fb6beef16aeefd
+SHA1: ae8a6f9df907e34bd531b6f339809f6a923fc99a
+SHA256: da07c8bc0a12b21b75df8a687da82b97faf6cd47f28b7e35682c55cd5d5f3506
+Section: Tweaks
+Description: Lock your screen using gestures on SpringBoard
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/FastLock/refs/heads/main/Sileo/icon.png
+Name: FastLock
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/depiction.json
+
 Package: com.dvntm.flow
 Version: 1.0
 Architecture: iphoneos-arm
