@@ -1024,6 +1024,60 @@ Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo
 Name: OrwellVK
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
 
+Package: com.dvntm.ovk
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 28656
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/orwellvk/com.dvntm.ovk_1.2_iphoneos-arm64.deb
+Size: 10269210
+MD5sum: c9ee236c71e02cb92d906150a42a026a
+SHA1: b84045899a35f9a8ef70fa55f9208a69290188f6
+SHA256: 519bc3a0a117d004858d3bc12d86662ff217a6ff6048130cae60872f04e08691
+Section: Tweaks
+Description: A subtle shift from the familiar
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png
+Name: OrwellVK
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
+
+Package: com.dvntm.ovk
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 28656
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/orwellvk/com.dvntm.ovk_1.2_iphoneos-arm.deb
+Size: 10264266
+MD5sum: a87eb192a394d89b2d2d9a783bc70280
+SHA1: 174aede35470b7c97261b629b932a62f0a12f727
+SHA256: 54651876583f5546ae97e772cff4002b0ea50c5d1882895778a43578b00b7f4a
+Section: Tweaks
+Description: A subtle shift from the familiar
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png
+Name: OrwellVK
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
+
+Package: com.dvntm.ovk
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 28656
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/orwellvk/com.dvntm.ovk_1.2_iphoneos-arm64e.deb
+Size: 10259520
+MD5sum: c3246fbd5003498189f3f9ef985d3f4d
+SHA1: e10e9481e42b4778ddf36a4f649e042e2f70d980
+SHA256: 6a33dae7ada265c72b3af00172294ffcfd7d4a876b9b0d7c0e15c6a2b3711f81
+Section: Tweaks
+Description: A subtle shift from the familiar
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png
+Name: OrwellVK
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
+
 Package: com.dvntm.ytlite
 Version: 5.2b1
 Architecture: iphoneos-arm64e
