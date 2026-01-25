@@ -1078,6 +1078,60 @@ Icon: https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo
 Name: OrwellVK
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/depiction.json
 
+Package: com.dvntm.twlegacy
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/twlegacy/com.dvntm.twlegacy_0.0.1_iphoneos-arm64e.deb
+Size: 6018
+MD5sum: f1e0336e1348f202fb4ee1199e4cc236
+SHA1: 7fba9d824bbddc91c31d64d78764f86f957ab9fd
+SHA256: 5aad476a34976623801835367036c63ca26e1467ca61c2bbdc0f80b3c6240b2b
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
+Name: NoItsNotTimeToUpdate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
+
+Package: com.dvntm.twlegacy
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/twlegacy/com.dvntm.twlegacy_0.0.1_iphoneos-arm64.deb
+Size: 6036
+MD5sum: 04beac79eda9095e7d7d6bbf60850dee
+SHA1: 36a92a1b6974505a52008788f2bae34eee5840ef
+SHA256: 10058405e9db27a13a3561a2e1154e33d561aa70d2b10213022cfed266211939
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
+Name: NoItsNotTimeToUpdate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
+
+Package: com.dvntm.twlegacy
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/twlegacy/com.dvntm.twlegacy_0.0.1_iphoneos-arm.deb
+Size: 5960
+MD5sum: c9d062e641b696604dee935281529c8f
+SHA1: e065f47641f0a5b4bea9ef1e4692046f14110f37
+SHA256: 8f5343c817acf3bb26cf3f0606c1acd85f6271779a82285212d1213762b924c9
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
+Name: NoItsNotTimeToUpdate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
+
 Package: com.dvntm.ytlite
 Version: 5.2b1
 Architecture: iphoneos-arm64
