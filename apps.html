@@ -295,7 +295,7 @@
   </div>
 
   <script>
-    const REPO_JSON_URL = 'https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/repo.json';
+    const FEATHER_JSON_URL = 'https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/feather.json';
     const fmtSize = b => `${(b / 1048576).toFixed(1)} MB`;
 
     const modalContent = document.getElementById('modal-content');
@@ -312,14 +312,14 @@
 
     function showAppModal(app) {
       const v = app.versions[0];
-      const shots = (app.screenshots || []).map(u => `<img src="${u}" loading="lazy">`).join('');
+      const shots = (app.screenshotURLs || []).map(u => `<img src="${u}" loading="lazy">`).join('');
 
       modalContent.innerHTML = `
         <div class="modal-header">
           <img src="${app.iconURL}" alt="">
           <div>
             <p class="modal-title">${app.name}</p>
-            <p class="modal-meta">v${v.version} • ${fmtSize(v.size)}</p>
+            <p class="modal-meta">v${app.version} • ${fmtSize(app.size)}</p>
           </div>
         </div>
         <p class="modal-desc">${app.localizedDescription || app.subtitle || ''}</p>
@@ -348,7 +348,7 @@
     }
 
     async function loadIpaList() {
-      const apps = (await (await fetch(REPO_JSON_URL)).json()).apps;
+      const apps = (await (await fetch(FEATHER_JSON_URL)).json()).apps;
       const list = document.getElementById('ipa-list');
 
       apps.forEach(app => {
@@ -359,7 +359,7 @@
           <img src="${app.iconURL}" alt="${app.name}">
           <div class="ipa-info">
             <h3 class="ipa-title">${app.name}</h3>
-            <p class="ipa-meta">v${v.version} • ${fmtSize(v.size)}</p>
+            <p class="ipa-meta">v${app.version} • ${fmtSize(app.size)}</p>
             <p class="ipa-date">${formatDate(v.date)}</p>
           </div>
           <a class="ipa-download" href="${v.downloadURL}" download>Download</a>
