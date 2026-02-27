@@ -295,7 +295,7 @@
   </div>
 
   <script>
-    const FEATHER_JSON_URL = 'https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/feather.json';
+    const RAW_REPO_URL = 'https://raw.githubusercontent.com/dvntm0/AltStore/refs/heads/main/raw_repo.json';
     const fmtSize = b => `${(b / 1048576).toFixed(1)} MB`;
 
     const modalContent = document.getElementById('modal-content');
@@ -348,7 +348,7 @@
     }
 
     async function loadIpaList() {
-      const apps = (await (await fetch(FEATHER_JSON_URL)).json()).apps;
+      const apps = (await (await fetch(RAW_REPO_URL)).json()).apps;
       const list = document.getElementById('ipa-list');
 
       apps.forEach(app => {
