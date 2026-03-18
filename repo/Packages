@@ -1456,3 +1456,57 @@ Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/mai
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
 
+Package: com.ginsu.ytmusicultimate
+Version: 2.4
+Architecture: iphoneos-arm64e
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.4_iphoneos-arm64e.deb
+Size: 6563322
+MD5sum: b1d69d3c129197f50e8fe1d86d321459
+SHA1: c69b1348d48fdf2743d40521456f6defd1abc0b3
+SHA256: 6b0b5f70a86326adcd19631f69824e8a65cbba8336bc00a622d32a6b804a6ad8
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.4_iphoneos-arm.deb
+Size: 6573666
+MD5sum: b3673b441d5176840b74b86f19088237
+SHA1: b5a740d12a31e8277fee6a44bc322fbcf3ffbfc7
+SHA256: df1da12b3a217af4c02c3a32edc0313bc2b41cfb0ca7482b145f430bb01327e5
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.4
+Architecture: iphoneos-arm64
+Maintainer: dayanch96 & ginsu
+Installed-Size: 17916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.4_iphoneos-arm64.deb
+Size: 6576970
+MD5sum: 1c27a77fef1de73f9360c79c528c74ec
+SHA1: d3905173e84befb29b569c74caa487effdf8588b
+SHA256: e7d2e6682ecd73ab8e3b6a0db0bb8dfe3fdd7a0e7d49bea10be9909736cbb923
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
