@@ -3,7 +3,7 @@
 Last updated: March 24, 2026
 
 ## 1. Acceptance
-By using YouTube RPC, you agree to these Terms of Service.
+By using YouTube Plus RPC, you agree to these Terms of Service.
 
 ## 2. Description
 YouTube RPC is a personal tool that displays your current YouTube activity 
