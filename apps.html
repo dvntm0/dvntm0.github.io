@@ -101,6 +101,49 @@
       background: #0066d6;
     }
 
+    .loading-msg {
+      text-align: center;
+      color: var(--fg2);
+      font-size: 0.95rem;
+      padding: 32px 0;
+    }
+
+    .loading-dots::after {
+      content: '';
+      animation: dots 1.2s steps(3, end) infinite;
+    }
+
+    @keyframes dots {
+      0%   { content: ''; }
+      33%  { content: '.'; }
+      66%  { content: '..'; }
+      100% { content: '...'; }
+    }
+
+    .error-msg {
+      text-align: center;
+      color: #ff6b6b;
+      font-size: 0.95rem;
+      padding: 32px 16px;
+      line-height: 1.5;
+    }
+
+    .retry-btn {
+      margin-top: 12px;
+      display: inline-block;
+      padding: 10px 20px;
+      background: var(--accent);
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+
+    .retry-btn:hover {
+      background: #0066d6;
+    }
+
     #custom-modal {
       position: fixed;
       inset: 0;
@@ -347,9 +390,9 @@
       return date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
     }
 
-    async function loadIpaList() {
-      const apps = (await (await fetch(RAW_REPO_URL)).json()).apps;
+    function renderApps(apps) {
       const list = document.getElementById('ipa-list');
+      list.innerHTML = '';
 
       apps.forEach(app => {
         const v = app.versions[0];
@@ -368,6 +411,39 @@
           cell.querySelector('.ipa-info').onclick = () => showAppModal(app);
         list.appendChild(cell);
       });
+    }
+
+    function showError() {
+      const list = document.getElementById('ipa-list');
+      list.innerHTML = `
+        <div class="error-msg">
+          Failed to load app list.<br>
+          <button class="retry-btn" onclick="loadIpaList()">Retry</button>
+        </div>
+      `;
+    }
+
+    async function loadIpaList() {
+      const list = document.getElementById('ipa-list');
+      list.innerHTML = `<p class="loading-msg">Загрузка<span class="loading-dots"></span></p>`;
+
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          const res = await fetch(RAW_REPO_URL, { cache: 'no-store' });
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+          if (!data.apps || !data.apps.length) throw new Error('Empty apps list');
+          renderApps(data.apps);
+          return;
+        } catch (e) {
+          console.warn(`Attempt ${attempt + 1} failed:`, e);
+          if (attempt < 2) {
+            await new Promise(r => setTimeout(r, 1000 * (attempt + 1)));
+          }
+        }
+      }
+
+      showError();
     }
 
     loadIpaList();
