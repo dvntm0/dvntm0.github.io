@@ -425,7 +425,7 @@
 
     async function loadIpaList() {
       const list = document.getElementById('ipa-list');
-      list.innerHTML = `<p class="loading-msg">Загрузка<span class="loading-dots"></span></p>`;
+      list.innerHTML = `<p class="loading-msg">Fetching...<span class="loading-dots"></span></p>`;
 
       for (let attempt = 0; attempt < 3; attempt++) {
         try {
