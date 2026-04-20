@@ -1295,6 +1295,60 @@ Name: NoItsNotTimeToUpdate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
 
 Package: com.dvntm.ytlite
+Version: 5.2
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 20800
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2_iphoneos-arm64e.deb
+Size: 7434214
+MD5sum: 21b6a25a11de2991ab232ef5f5debdfc
+SHA1: ddfaeb20f5756fbc2af4e05dd2bba37797cd2d6f
+SHA256: 3a4908958834265c3fb88117089a28a6d4ebd2b1d9ffced3a8cd3e38c1d4310b
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 20800
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2_iphoneos-arm.deb
+Size: 7434188
+MD5sum: 7ea40992c08df303c7b3f682e52fef88
+SHA1: 85242bbfaec63679575c40c694879b84e42eb765
+SHA256: cc48b87d76605b26e75414e2bc3d678b5f32f3c7bc57710754f29dc33b2fff9b
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 20800
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2_iphoneos-arm64.deb
+Size: 7438534
+MD5sum: 688dfdbaf6b83bb50ed29a841d3bfeae
+SHA1: d99001a010d42db329b2bb3c3d41422ba51d1b8d
+SHA256: 4043e0723f87d68ae33b4c9026686cfd9a2a9eb3713864f5723420138dd507f3
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
 Version: 5.2b1
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
