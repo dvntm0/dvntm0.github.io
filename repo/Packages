@@ -1349,34 +1349,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b1
-Architecture: iphoneos-arm64e
-Maintainer: dvntm
-Installed-Size: 16252
-Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm64e.deb
-Size: 6046010
-MD5sum: 1743ec109e89bea5ef27951876a6a74a
-SHA1: d9dc19ecf85128ad3434173c38fd72cb2f379114
-SHA256: 5ba5c41ad1cc29aad56b258abb78a177ffba5178ce494306e1be01c997f759e9
-Section: Tweaks
-Description: Lightweight YouTube Enhancer
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
-Name: YTLite
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
-
-Package: com.dvntm.ytlite
-Version: 5.2b1
+Version: 5.2~b1
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 16252
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm64.deb
-Size: 6043932
-MD5sum: 2e80af4f0efe0c5a84c353c4b1a31635
-SHA1: acf2fd740d0e95d5b0123f06670c5c7c0f9b55c4
-SHA256: c02b53ec593541dde7394536378e26caafbdf74ffe15339be8e232e535514ea6
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b1_iphoneos-arm64.deb
+Size: 6043940
+MD5sum: dea1ec20755f5d28814d478d8f9e47d4
+SHA1: add8eb5644242b4a186d0fd0cb34a3673c2a2dcb
+SHA256: 2f84e6eb52a0000e86538cd15090a2b4a69cc41e4cd73f2c674d5340ee6c1a58
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1385,16 +1367,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b1
+Version: 5.2~b1
 Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 16252
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b1_iphoneos-arm.deb
-Size: 6041640
-MD5sum: d577f5a5d764b17e6b374521ed1ab2fa
-SHA1: 3df923553bcfc308c7e9c1e46701075bec804fd0
-SHA256: 06cf88b03076572700b65bdfc41baba785fd12667ceffd696706d9dc24ad7b97
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b1_iphoneos-arm.deb
+Size: 6041648
+MD5sum: 9d18e7a270a71868f77720201a12dcd5
+SHA1: 8fedf06f2acae2e003aada30517b9365ba9eae1e
+SHA256: 3f33da4ddea32e58f97a7c79d17110e54faac1be923c97d2535fa66a53835684
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1403,34 +1385,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b2
-Architecture: iphoneos-arm
-Maintainer: dvntm
-Installed-Size: 16696
-Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b2_iphoneos-arm.deb
-Size: 6401046
-MD5sum: a2ef90f6a20480cb9eb7b70b1eee6a10
-SHA1: f040c8128ef9390a66c7191f9fedeeb02815cd28
-SHA256: ee3bf057fd68fcc605e34779239aae5f394c0c65deb45cb9e18e57566658f627
-Section: Tweaks
-Description: Lightweight YouTube Enhancer
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
-Name: YTLite
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
-
-Package: com.dvntm.ytlite
-Version: 5.2b2
+Version: 5.2~b1
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
-Installed-Size: 16696
+Installed-Size: 16252
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b2_iphoneos-arm64e.deb
-Size: 6396580
-MD5sum: 4eb12f5da797d5fd8d2bef3b8880dde8
-SHA1: 0e4b9e1fc1de93849df3c1d38a7dd368f7f6f7de
-SHA256: fc8608ce581178b1c82ad8bbac3b373c58bfb0d17c78892e6affc9698ea53643
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b1_iphoneos-arm64e.deb
+Size: 6046020
+MD5sum: c085470a326f395ba6323512d53c013e
+SHA1: 6bde5a7225f1793f7850c2d4b8048d046b71fadf
+SHA256: 3928e885ea842eacbff50346be9094658e55c261d5eca9b121c35abacd747aa5
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1439,16 +1403,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b2
+Version: 5.2~b2
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 16696
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b2_iphoneos-arm64.deb
-Size: 6394072
-MD5sum: 139ab7ad80d26be160b8ae726ab5e55e
-SHA1: 480b7e436438442c5e62f679bd2a3a60f09e261f
-SHA256: b387c367e68c3cfe058fc7f2b5dd4d299cdd7c475a17243c43927ad6df6c10dc
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b2_iphoneos-arm64.deb
+Size: 6394080
+MD5sum: 39aa153899f7354ccca78e4bb751f11d
+SHA1: 75cfd61e62e219bdd1c547f3247c24e8196d3f22
+SHA256: a51005ae6831eede91f5dd2279104f2a40c65068fa87eebc8b00863674615bc7
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1457,16 +1421,34 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b3
+Version: 5.2~b2
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 16696
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b2_iphoneos-arm.deb
+Size: 6401056
+MD5sum: ec67722190824e6cb6e92db948490e0d
+SHA1: 193c59f80d211b138c11a47cfa5d077fd585568f
+SHA256: 20a52de9704f43335cc25cad3a918ca85583ad8119e2e43ffc40e2ee318e72ba
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2~b2
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 16696
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b3_iphoneos-arm64e.deb
-Size: 6403020
-MD5sum: c5e8e013d55cda51e6bfeceb7a6491df
-SHA1: 87b728ff62ea7248be14ea499a826365710ca4fe
-SHA256: 6baadbe132b44c41e7b1824e14bad4cb3271eced1454ccb5d9755141bbb3db6b
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b2_iphoneos-arm64e.deb
+Size: 6396588
+MD5sum: d95659c2e03a0c827dc59c76d484ad74
+SHA1: ac71ad90b2c1e58f9f11ca8382077a5149cb226a
+SHA256: 8a36a951ad439b192fee40dc922c2b6b3ae13a6b1495bc697f64e54f7ff059a1
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1475,16 +1457,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b3
+Version: 5.2~b3
 Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 16696
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b3_iphoneos-arm.deb
-Size: 6398156
-MD5sum: 7e1b2e1bbf749dda8d5d2fd4e3291e85
-SHA1: 63ffd8e54c3e7d80af4f346116e259a41632d327
-SHA256: 3fb75cffe57847cb45bdea0765d7decc0df20bdc2f5d03c7c85fc800bf33807c
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b3_iphoneos-arm.deb
+Size: 6398164
+MD5sum: 1abf2ce33440ed281dcc782c197acea8
+SHA1: adf4c685d0bf7c74b1d7d87b9736fe1aa0f4efbf
+SHA256: ddcb48eda445c237d91bffea60d5acb8525f9b458cd2450720fb0c84064c316c
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1493,16 +1475,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b3
+Version: 5.2~b3
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 16696
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b3_iphoneos-arm64.deb
-Size: 6402770
-MD5sum: 86a0f003d24b3d9c6e49a0ab21e9d26b
-SHA1: 6f2d05cd8ca505ad3f95514c15de1b3eebd8cb04
-SHA256: 5be90d3eae5e0922f0e3e50b1fa083c3f240e6ad2971d7e20b5a814848b266d2
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b3_iphoneos-arm64.deb
+Size: 6402780
+MD5sum: 3344c9356b45402dbeb8e60e4a44985b
+SHA1: bdf82449b42e6c2fe9fc0e6d916c5d479bc5c5bd
+SHA256: 537b4fdc2b973ddd9f909c210a52b4ae36a129a2a54e54a83c34e542e37e6feb
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1511,16 +1493,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b4
-Architecture: iphoneos-arm
+Version: 5.2~b3
+Architecture: iphoneos-arm64e
 Maintainer: dvntm
-Installed-Size: 16732
+Installed-Size: 16696
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b4_iphoneos-arm.deb
-Size: 6411134
-MD5sum: 965fd4573a3e8c5d1eaedf14e5699fec
-SHA1: 424b89286f1376147f8e31f51e4f5d36b94d379b
-SHA256: 58b5a063b230a0766529cdea2bfea896feffe0b40af7cb670592ab67167902ce
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b3_iphoneos-arm64e.deb
+Size: 6403028
+MD5sum: 7d7d7b16579fb2d56d217a93a6ff724c
+SHA1: 787b54411e5489e6adb1c5b1e887f171661ee99b
+SHA256: 47ddf29b9fe24c822155a07a7a10c42c41d49e2b8647d93dc6feac8e3c1b7abb
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1529,16 +1511,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b4
+Version: 5.2~b4
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 16732
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b4_iphoneos-arm64.deb
-Size: 6414432
-MD5sum: 8719d03a74c0433e28f5a4471aedfc60
-SHA1: c3124ff9acb485940210786c8ba2fb11e575746a
-SHA256: 603ef7c4007c80993356349b6e4461a9a2aa4c7202fa828303ad2feb84424dae
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b4_iphoneos-arm64.deb
+Size: 6414442
+MD5sum: d1e07293865ddda019ad4b68485155b5
+SHA1: a2144c6c1d2552cccc71733fcf2579671401389f
+SHA256: 8c39e259eae81fb24887fde7af404404b9724221e1c04ded20d2817da7dbee39
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1547,16 +1529,34 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2b4
+Version: 5.2~b4
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 16732
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b4_iphoneos-arm.deb
+Size: 6411144
+MD5sum: 1a3eda0f51ee334d59f658014bec8bb2
+SHA1: 771dc57a4ecf39e4c54ebe28ca17455f4ca3b6d2
+SHA256: 35ffa64e1b81bd244dabf04662df8d519b6ca57a026fa15204a3e0767b44cbdb
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2~b4
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 16716
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2b4_iphoneos-arm64e.deb
-Size: 6413570
-MD5sum: 51fea7d46c42c4ccc845de554ab9b22d
-SHA1: c9931191924bf552eb6cc906131444817f0c75ab
-SHA256: b560f2fe40aca222f60b9d498d1e6964ba2bce9291ba3098cffd43c825a115a1
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b4_iphoneos-arm64e.deb
+Size: 6413578
+MD5sum: feca65bef18749b058d00999ee60539f
+SHA1: 5780a44ee7120bcc981d79e1aab4fdefc823bc02
+SHA256: c5f7b1e6e0e5d73363b2e715c0fab48951816a14659ffc2a3a748e2ed5709819
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
