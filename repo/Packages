@@ -1294,6 +1294,60 @@ Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/i
 Name: Tweach
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
 
+Package: com.dvntm.tweach
+Version: 2.3.3
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 20376
+Depends: mobilesubstrate
+Filename: debs/tweach/com.dvntm.tweach_2.3.3_iphoneos-arm.deb
+Size: 7296114
+MD5sum: c37d6cde46b1012a8773a68eb1af016f
+SHA1: 97be0f06b1259757a5ab3e653f125d1c36a18651
+SHA256: 4074f5129b536fa51d6f154d1caff7fcebf5084e2bc0c89d85da0dc89df8b4c5
+Section: Tweaks
+Description: Download your favorite clips, VODs and Live Streams with Tweach!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
+Name: Tweach
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
+
+Package: com.dvntm.tweach
+Version: 2.3.3
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 20376
+Depends: mobilesubstrate
+Filename: debs/tweach/com.dvntm.tweach_2.3.3_iphoneos-arm64.deb
+Size: 7295338
+MD5sum: 6a2beeb5193d6e600579d8a4e78d1572
+SHA1: 923210417175e55f28db811018597bf1854962d7
+SHA256: 17205f326a1382b3cf175049470a9fe3637a0255c5869b60ead4cfb1fa15f09d
+Section: Tweaks
+Description: Download your favorite clips, VODs and Live Streams with Tweach!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
+Name: Tweach
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
+
+Package: com.dvntm.tweach
+Version: 2.3.3
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 20376
+Depends: mobilesubstrate
+Filename: debs/tweach/com.dvntm.tweach_2.3.3_iphoneos-arm64e.deb
+Size: 7298768
+MD5sum: 23f7eb8527be3343ce3d102df32420ca
+SHA1: b6a09d5649daec770f20ee60b95293e064a159e5
+SHA256: 3e3e7493a5bfec108c14ff2d6cbc1dbb8e642aff83969939cfd185c529308241
+Section: Tweaks
+Description: Download your favorite clips, VODs and Live Streams with Tweach!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
+Name: Tweach
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
+
 Package: com.dvntm.twlegacy
 Version: 0.0.1
 Architecture: iphoneos-arm64e
