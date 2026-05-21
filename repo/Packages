@@ -1460,13 +1460,13 @@ Package: com.dvntm.ytlite
 Version: 5.2.1
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
-Installed-Size: 20732
+Installed-Size: 20356
 Depends: mobilesubstrate
 Filename: debs/ytplus/com.dvntm.ytlite_5.2.1_iphoneos-arm64e.deb
-Size: 7410936
-MD5sum: e36c555233b7cd65e0bb112d3935c49e
-SHA1: 623e4db2e44fb3d1d9d475d600f4c78d34ff91a0
-SHA256: c3a12613e7b81607a76c8064dbe27d2bb53c82d08428a85b4e2d37ad7de6c3ca
+Size: 7319886
+MD5sum: c4a916d4fbabe7fd29816b6a58e6b5b2
+SHA1: 37f1052b28b7b8a72207b3bf4a5f8e8c0efa954b
+SHA256: a2ddc4f15e7f933c81bdcdec2ff6364c110926b9dd92a0d3936f85bc1b9412ef
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1478,13 +1478,13 @@ Package: com.dvntm.ytlite
 Version: 5.2.1
 Architecture: iphoneos-arm
 Maintainer: dvntm
-Installed-Size: 20764
+Installed-Size: 20388
 Depends: mobilesubstrate
 Filename: debs/ytplus/com.dvntm.ytlite_5.2.1_iphoneos-arm.deb
-Size: 7420522
-MD5sum: ffba73f062577070050fc20e6844fd70
-SHA1: 1ac014831f89c19abf364c2c76c4c36c5e87029d
-SHA256: fe634567474704eea699d81c36b8af59575882deaad30f3e8bd4898b5019ef70
+Size: 7336002
+MD5sum: 53ff01360d07c0c67734d7bf8365248a
+SHA1: 8175f3bc95d617d674d70c4a3fb83bef3d44bcd4
+SHA256: 5f021e68b031402c896ee4a7ae38558addf939aa6ee0248651379c04b1e66efc
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1496,13 +1496,13 @@ Package: com.dvntm.ytlite
 Version: 5.2.1
 Architecture: iphoneos-arm64
 Maintainer: dvntm
-Installed-Size: 20764
+Installed-Size: 20372
 Depends: mobilesubstrate
 Filename: debs/ytplus/com.dvntm.ytlite_5.2.1_iphoneos-arm64.deb
-Size: 7432926
-MD5sum: 5ca2ad541bcc8d2f312816b880222b4b
-SHA1: bd5be80f8f23d261b8022f856df6733589f9c8fd
-SHA256: 8e4c575bf3648e1dd37d29367148521d1f5bd46f2c3b2e7db9ef2584124f3fac
+Size: 7332770
+MD5sum: 689c301ac4ab4325da9e6f2e98655b6c
+SHA1: 221ae8d41b1a37450ec8edb8313a041081f8374f
+SHA256: cf872e804ac7d06401a77a37cb032a2488b6023fc7396d8f1a061c4d23c8e1de
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
