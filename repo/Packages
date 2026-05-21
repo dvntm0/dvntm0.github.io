@@ -54,15 +54,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/CC18/main/Sileo/depi
 
 Package: com.dvntm.ccappicon
 Version: 0.0.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
-Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm64e.deb
-Size: 3068
-MD5sum: 4efac06aa82633133f05df53f0123980
-SHA1: 8b18479053dee4af8f654eab3b6eba51f610fbd7
-SHA256: d2f40cc576fb2f341c6d71924f9e4c364f8cc38cba7b4e73406738c2fb59ac22
+Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm64.deb
+Size: 3136
+MD5sum: b2d26b472c48385d86144087966fc4ae
+SHA1: 9f5ff4a9a5218ea9ccf147e89578d1c54e79c652
+SHA256: e24e4de9416ae090b68964ddea47f20c360403432ed6a99a056c12193fb80629
 Section: Tweaks
 Description: No app icon in Now Playing and Control Center artworks
 Author: dvntm
@@ -90,15 +90,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/CCAppIcon/main/Sileo
 
 Package: com.dvntm.ccappicon
 Version: 0.0.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0), firmware (<< 16.0)
-Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm64.deb
-Size: 3136
-MD5sum: b2d26b472c48385d86144087966fc4ae
-SHA1: 9f5ff4a9a5218ea9ccf147e89578d1c54e79c652
-SHA256: e24e4de9416ae090b68964ddea47f20c360403432ed6a99a056c12193fb80629
+Filename: debs/ccappicon/com.dvntm.ccappicon_0.0.1_iphoneos-arm64e.deb
+Size: 3068
+MD5sum: 4efac06aa82633133f05df53f0123980
+SHA1: 8b18479053dee4af8f654eab3b6eba51f610fbd7
+SHA256: d2f40cc576fb2f341c6d71924f9e4c364f8cc38cba7b4e73406738c2fb59ac22
 Section: Tweaks
 Description: No app icon in Now Playing and Control Center artworks
 Author: dvntm
@@ -162,6 +162,24 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/
 
 Package: com.dvntm.fastlock
 Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 852
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/fastlock/com.dvntm.fastlock_1.0_iphoneos-arm64.deb
+Size: 381870
+MD5sum: 87c37246588a3ddd5f4f8ac368825c98
+SHA1: ae2aaff422673424da04be2630c1dad73da7cf8d
+SHA256: 5e09a75b3ac02abf4658712a9387974aae17f0a0d8e7ad3d036f63c918dad478
+Section: Tweaks
+Description: Lock your screen using gestures on SpringBoard
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/FastLock/refs/heads/main/Sileo/icon.png
+Name: FastLock
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/depiction.json
+
+Package: com.dvntm.fastlock
+Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 836
@@ -197,16 +215,16 @@ Name: FastLock
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/depiction.json
 
 Package: com.dvntm.fastlock
-Version: 1.0
-Architecture: iphoneos-arm64
+Version: 1.0.1
+Architecture: iphoneos-arm
 Maintainer: dvntm
-Installed-Size: 852
+Installed-Size: 856
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/fastlock/com.dvntm.fastlock_1.0_iphoneos-arm64.deb
-Size: 381870
-MD5sum: 87c37246588a3ddd5f4f8ac368825c98
-SHA1: ae2aaff422673424da04be2630c1dad73da7cf8d
-SHA256: 5e09a75b3ac02abf4658712a9387974aae17f0a0d8e7ad3d036f63c918dad478
+Filename: debs/fastlock/com.dvntm.fastlock_1.0.1_iphoneos-arm.deb
+Size: 383176
+MD5sum: b044c81225c306f4a672521c1eb51c45
+SHA1: b4ebb0bc1d4624d1146b0c15066c05da7b48763d
+SHA256: 3d392e7c4dda213b49cdfda910c740b8948904d748a0fea3288b3e8d2384a8a1
 Section: Tweaks
 Description: Lock your screen using gestures on SpringBoard
 Author: dvntm
@@ -234,24 +252,6 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/
 
 Package: com.dvntm.fastlock
 Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: dvntm
-Installed-Size: 856
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/fastlock/com.dvntm.fastlock_1.0.1_iphoneos-arm.deb
-Size: 383176
-MD5sum: b044c81225c306f4a672521c1eb51c45
-SHA1: b4ebb0bc1d4624d1146b0c15066c05da7b48763d
-SHA256: 3d392e7c4dda213b49cdfda910c740b8948904d748a0fea3288b3e8d2384a8a1
-Section: Tweaks
-Description: Lock your screen using gestures on SpringBoard
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/FastLock/refs/heads/main/Sileo/icon.png
-Name: FastLock
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/depiction.json
-
-Package: com.dvntm.fastlock
-Version: 1.0.1
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 840
@@ -270,24 +270,6 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/FastLock/main/Sileo/
 
 Package: com.dvntm.flow
 Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: dvntm, nowesr1
-Installed-Size: 532
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/flow/com.dvntm.flow_1.0_iphoneos-arm64e.deb
-Size: 228062
-MD5sum: c249a6b9be75ca83dde644867ccd1272
-SHA1: 51dfeb6f1b8c0f3a6469a641a44244ff6e839fb6
-SHA256: 53b3afbd891ecd26a835279dad665d5b481c66183c3244aec97daa7a07d3120e
-Section: Tweaks
-Description: A lightweight Messenger enhancer
-Author: dvntm, nowesr1
-Icon: https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png
-Name: Flow for Messenger
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/Flow/main/Sileo/depiction.json
-
-Package: com.dvntm.flow
-Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: dvntm, nowesr1
 Installed-Size: 532
@@ -297,6 +279,24 @@ Size: 228538
 MD5sum: 72962d7f19ddff4e60814a54490c1d86
 SHA1: b398f1be3cb22c81e5e325b2e40e2aa07c640924
 SHA256: c80a1a540cc9382636da60014babe7087bb47a6a435f94f7b9d714109e8c2bab
+Section: Tweaks
+Description: A lightweight Messenger enhancer
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png
+Name: Flow for Messenger
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Flow/main/Sileo/depiction.json
+
+Package: com.dvntm.flow
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: dvntm, nowesr1
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/flow/com.dvntm.flow_1.0_iphoneos-arm64e.deb
+Size: 228062
+MD5sum: c249a6b9be75ca83dde644867ccd1272
+SHA1: 51dfeb6f1b8c0f3a6469a641a44244ff6e839fb6
+SHA256: 53b3afbd891ecd26a835279dad665d5b481c66183c3244aec97daa7a07d3120e
 Section: Tweaks
 Description: A lightweight Messenger enhancer
 Author: dvntm, nowesr1
@@ -324,15 +324,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/Flow/main/Sileo/depi
 
 Package: com.dvntm.glow
 Version: 1.0
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: dvntm, nowesr1
 Installed-Size: 1248
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/glow/com.dvntm.glow_1.0_iphoneos-arm64e.deb
-Size: 683950
-MD5sum: 194804724eb33d1404e25187b8eb7456
-SHA1: a4335a2e1721b729a349638c7feb7c9ae1a39411
-SHA256: 95862162fe62b98bee57e44c6d1056f74c3ca97de0d876f86fcdba121fa35796
+Filename: debs/glow/com.dvntm.glow_1.0_iphoneos-arm.deb
+Size: 685238
+MD5sum: 510b8ca6c4b0faea6e0f20edc222ff82
+SHA1: 417d4b0761b85e5b07a4081605ad35381fe01daf
+SHA256: 93f8b9528079e7d3f3b98e2b5bd53f525d4c5864b21247136d9dbff2f4e9bc0d
 Section: Tweaks
 Description: Cleaner. Smarter. Yours.
 Author: dvntm, nowesr1
@@ -360,33 +360,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depi
 
 Package: com.dvntm.glow
 Version: 1.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: dvntm, nowesr1
 Installed-Size: 1248
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/glow/com.dvntm.glow_1.0_iphoneos-arm.deb
-Size: 685238
-MD5sum: 510b8ca6c4b0faea6e0f20edc222ff82
-SHA1: 417d4b0761b85e5b07a4081605ad35381fe01daf
-SHA256: 93f8b9528079e7d3f3b98e2b5bd53f525d4c5864b21247136d9dbff2f4e9bc0d
-Section: Tweaks
-Description: Cleaner. Smarter. Yours.
-Author: dvntm, nowesr1
-Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
-Name: Glow for Facebook
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
-
-Package: com.dvntm.glow
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: dvntm, nowesr1
-Installed-Size: 1248
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/glow/com.dvntm.glow_1.0.1_iphoneos-arm64.deb
-Size: 686320
-MD5sum: 48cf07537952acc197a4b3494905f54e
-SHA1: b43c39beba7252d6238ba267b7c12893d1308f62
-SHA256: c6ef617e55076f0f77255eb0f24517dfeefb696294e6b67f4a1cdcd9240f81cf
+Filename: debs/glow/com.dvntm.glow_1.0_iphoneos-arm64e.deb
+Size: 683950
+MD5sum: 194804724eb33d1404e25187b8eb7456
+SHA1: a4335a2e1721b729a349638c7feb7c9ae1a39411
+SHA256: 95862162fe62b98bee57e44c6d1056f74c3ca97de0d876f86fcdba121fa35796
 Section: Tweaks
 Description: Cleaner. Smarter. Yours.
 Author: dvntm, nowesr1
@@ -414,6 +396,24 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depi
 
 Package: com.dvntm.glow
 Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm, nowesr1
+Installed-Size: 1248
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.0.1_iphoneos-arm64.deb
+Size: 686320
+MD5sum: 48cf07537952acc197a4b3494905f54e
+SHA1: b43c39beba7252d6238ba267b7c12893d1308f62
+SHA256: c6ef617e55076f0f77255eb0f24517dfeefb696294e6b67f4a1cdcd9240f81cf
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: dvntm, nowesr1
 Installed-Size: 1248
@@ -423,6 +423,24 @@ Size: 685226
 MD5sum: 45f20b2eb2b5d3cc188a07ba3ced707a
 SHA1: bdf35c20a5ddae26a2db310d3b324d06ce4e5f34
 SHA256: 66bb2abc96caea6208cb9edd9330991f815f8e93fbd7ebebbbf59085c87ac70e
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm, nowesr1
+Installed-Size: 20028
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.1_iphoneos-arm64e.deb
+Size: 7804746
+MD5sum: 606f5498fa07ed8aef2d86c40c17e585
+SHA1: cf01a5e2a1b0ae8baa0f0da2f5578950c798974c
+SHA256: cca38835ccee758d8735c5f04e57b3f96ab0524799342eec6fb3fc240d3359a0
 Section: Tweaks
 Description: Cleaner. Smarter. Yours.
 Author: dvntm, nowesr1
@@ -459,24 +477,6 @@ Size: 7798976
 MD5sum: e206e5e474b36f57c3b0212736c99e29
 SHA1: ba8d81b9ea99d545b72889fe1f0d7ecb0da3bd77
 SHA256: 65eef5bd3a5ab191c24683bf8b8e941ad7b839aadb721429299eca9a6e596bc6
-Section: Tweaks
-Description: Cleaner. Smarter. Yours.
-Author: dvntm, nowesr1
-Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
-Name: Glow for Facebook
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
-
-Package: com.dvntm.glow
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: dvntm, nowesr1
-Installed-Size: 20028
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/glow/com.dvntm.glow_1.1_iphoneos-arm64e.deb
-Size: 7804746
-MD5sum: 606f5498fa07ed8aef2d86c40c17e585
-SHA1: cf01a5e2a1b0ae8baa0f0da2f5578950c798974c
-SHA256: cca38835ccee758d8735c5f04e57b3f96ab0524799342eec6fb3fc240d3359a0
 Section: Tweaks
 Description: Cleaner. Smarter. Yours.
 Author: dvntm, nowesr1
@@ -540,6 +540,24 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depi
 
 Package: com.dvntm.glow
 Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: dvntm, nowesr1
+Installed-Size: 16996
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.3_iphoneos-arm.deb
+Size: 6900216
+MD5sum: 14854601b552b4e325f4421cab400348
+SHA1: 0f484a7c03e8ef94bf153da814143ea958cac0f6
+SHA256: c9180a11ee97101e1c0810755973b9440f3690c1405e8c5a6acc889095afda49
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: dvntm, nowesr1
 Installed-Size: 16996
@@ -575,24 +593,6 @@ Name: Glow for Facebook
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
 
 Package: com.dvntm.glow
-Version: 1.3
-Architecture: iphoneos-arm
-Maintainer: dvntm, nowesr1
-Installed-Size: 16996
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/glow/com.dvntm.glow_1.3_iphoneos-arm.deb
-Size: 6900216
-MD5sum: 14854601b552b4e325f4421cab400348
-SHA1: 0f484a7c03e8ef94bf153da814143ea958cac0f6
-SHA256: c9180a11ee97101e1c0810755973b9440f3690c1405e8c5a6acc889095afda49
-Section: Tweaks
-Description: Cleaner. Smarter. Yours.
-Author: dvntm, nowesr1
-Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
-Name: Glow for Facebook
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
-
-Package: com.dvntm.glow
 Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: dvntm, nowesr1
@@ -612,24 +612,6 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depi
 
 Package: com.dvntm.glow
 Version: 1.3.1
-Architecture: iphoneos-arm64e
-Maintainer: dvntm, nowesr1
-Installed-Size: 17004
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/glow/com.dvntm.glow_1.3.1_iphoneos-arm64e.deb
-Size: 6905238
-MD5sum: 53e19f26b40d19db5c2615f498faf28f
-SHA1: 211588f61b244c77aee0af464c4b775f9e151813
-SHA256: 38c62b68d1147e93f24f30c9d0e1e12afc795788e6f57024dcf8a9800034db3a
-Section: Tweaks
-Description: Cleaner. Smarter. Yours.
-Author: dvntm, nowesr1
-Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
-Name: Glow for Facebook
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
-
-Package: com.dvntm.glow
-Version: 1.3.1
 Architecture: iphoneos-arm64
 Maintainer: dvntm, nowesr1
 Installed-Size: 17004
@@ -639,6 +621,24 @@ Size: 6899448
 MD5sum: 58ac723243034e2ec7697e0b72691e2b
 SHA1: 9ea93812cfa5f350f8a8accc61887b817e4f793e
 SHA256: c4e64385bdf471e74d3d65edf6e982bf3ac5613246f4368f90a3b262f1222847
+Section: Tweaks
+Description: Cleaner. Smarter. Yours.
+Author: dvntm, nowesr1
+Icon: https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png
+Name: Glow for Facebook
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Glow/main/Sileo/depiction.json
+
+Package: com.dvntm.glow
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm, nowesr1
+Installed-Size: 17004
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/glow/com.dvntm.glow_1.3.1_iphoneos-arm64e.deb
+Size: 6905238
+MD5sum: 53e19f26b40d19db5c2615f498faf28f
+SHA1: 211588f61b244c77aee0af464c4b775f9e151813
+SHA256: 38c62b68d1147e93f24f30c9d0e1e12afc795788e6f57024dcf8a9800034db3a
 Section: Tweaks
 Description: Cleaner. Smarter. Yours.
 Author: dvntm, nowesr1
@@ -702,24 +702,6 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Reso
 
 Package: com.dvntm.infuseplus
 Version: 2.3
-Architecture: iphoneos-arm
-Maintainer: dvntm
-Installed-Size: 1140
-Depends: mobilesubstrate
-Filename: debs/infuseplus/com.dvntm.infuseplus_2.3_iphoneos-arm.deb
-Size: 416568
-MD5sum: 4c82065b9b2a9b9ab7ce1184becb011f
-SHA1: 5823c0168fd83a632641a1d19705544ab1d4fadd
-SHA256: eef768481a972feb3d4011c03fc748cb34a4c3e0bd004e353dfcaca26af32c5a
-Section: Tweaks
-Description: Enhancer for Infuse app
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
-Name: Infuse Plus
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
-
-Package: com.dvntm.infuseplus
-Version: 2.3
 Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 1140
@@ -729,6 +711,24 @@ Size: 416962
 MD5sum: 2b17c237152b68cef00f31c11e962fdb
 SHA1: 46d0e32caae6dba1709d68a8a61c20b63727d8a6
 SHA256: 2854e5298319416821f369a838311b554e7888727528b7e1ad073c311e68c929
+Section: Tweaks
+Description: Enhancer for Infuse app
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png
+Name: Infuse Plus
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Resources/depiction.json
+
+Package: com.dvntm.infuseplus
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 1140
+Depends: mobilesubstrate
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.3_iphoneos-arm.deb
+Size: 416568
+MD5sum: 4c82065b9b2a9b9ab7ce1184becb011f
+SHA1: 5823c0168fd83a632641a1d19705544ab1d4fadd
+SHA256: eef768481a972feb3d4011c03fc748cb34a4c3e0bd004e353dfcaca26af32c5a
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -756,15 +756,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Reso
 
 Package: com.dvntm.infuseplus
 Version: 2.3.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 1156
 Depends: mobilesubstrate
-Filename: debs/infuseplus/com.dvntm.infuseplus_2.3.1_iphoneos-arm64e.deb
-Size: 421432
-MD5sum: c5e715e889e0cac3035dc4c16f108c92
-SHA1: 2c429ecc8486ee8afae65adcbe86383288cf8af9
-SHA256: 93619f352f308cd886eb17646db4785623c8b89ad79f6c05919d9d028f748632
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.3.1_iphoneos-arm.deb
+Size: 421452
+MD5sum: cb2151d496388979f4b6369e57310482
+SHA1: b08ba6fa8dd15dd45a3851df831934f8e48dfa49
+SHA256: a8751ee8462e25625f99c56162ed7b649e94b24b47bee18b21ccc0c233daa0bb
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -792,15 +792,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Reso
 
 Package: com.dvntm.infuseplus
 Version: 2.3.1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 1156
 Depends: mobilesubstrate
-Filename: debs/infuseplus/com.dvntm.infuseplus_2.3.1_iphoneos-arm.deb
-Size: 421452
-MD5sum: cb2151d496388979f4b6369e57310482
-SHA1: b08ba6fa8dd15dd45a3851df831934f8e48dfa49
-SHA256: a8751ee8462e25625f99c56162ed7b649e94b24b47bee18b21ccc0c233daa0bb
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.3.1_iphoneos-arm64e.deb
+Size: 421432
+MD5sum: c5e715e889e0cac3035dc4c16f108c92
+SHA1: 2c429ecc8486ee8afae65adcbe86383288cf8af9
+SHA256: 93619f352f308cd886eb17646db4785623c8b89ad79f6c05919d9d028f748632
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -810,15 +810,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Reso
 
 Package: com.dvntm.infuseplus
 Version: 2.4
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: dvntm
-Installed-Size: 1248
+Installed-Size: 1216
 Depends: mobilesubstrate
-Filename: debs/infuseplus/com.dvntm.infuseplus_2.4_iphoneos-arm.deb
-Size: 445474
-MD5sum: f355a0e8f5891633a56047d942169144
-SHA1: 2e1c6103ae1b066a6035cfe2b82a4cdb4a672dfe
-SHA256: fe11aba6e3a65527c9f10e3e38c84013833c0df97344d2d8c89b4a276db983c5
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.4_iphoneos-arm64e.deb
+Size: 445362
+MD5sum: 04b837a7c4c38bec9ef818686f8599f2
+SHA1: 2ba0213508b819bb42d6870587fe6e93f5bb6f66
+SHA256: c6c5a9a282aaa944aa37e06c097bd6f68ede5b996260c046da8a648015cde60d
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -846,15 +846,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Reso
 
 Package: com.dvntm.infuseplus
 Version: 2.4
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: dvntm
-Installed-Size: 1216
+Installed-Size: 1248
 Depends: mobilesubstrate
-Filename: debs/infuseplus/com.dvntm.infuseplus_2.4_iphoneos-arm64e.deb
-Size: 445362
-MD5sum: 04b837a7c4c38bec9ef818686f8599f2
-SHA1: 2ba0213508b819bb42d6870587fe6e93f5bb6f66
-SHA256: c6c5a9a282aaa944aa37e06c097bd6f68ede5b996260c046da8a648015cde60d
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.4_iphoneos-arm.deb
+Size: 445474
+MD5sum: f355a0e8f5891633a56047d942169144
+SHA1: 2e1c6103ae1b066a6035cfe2b82a4cdb4a672dfe
+SHA256: fe11aba6e3a65527c9f10e3e38c84013833c0df97344d2d8c89b4a276db983c5
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -918,15 +918,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Reso
 
 Package: com.dvntm.infuseplus
 Version: 2.5
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 1292
 Depends: mobilesubstrate
-Filename: debs/infuseplus/com.dvntm.infuseplus_2.5_iphoneos-arm64.deb
-Size: 455058
-MD5sum: 42702d3fd7c22a5f0eef82445922b81c
-SHA1: cc87be8bfb1ef883134f29cb4bc8fb3d30b84c0c
-SHA256: 5c5f07a441c1a8f1bdb8aba0828d62e95bc4639bf791490057eaa941c0644396
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.5_iphoneos-arm.deb
+Size: 454810
+MD5sum: 2da1349e2ccbb9fc1f5faedbb9499713
+SHA1: db1e7d55a807fa87fa5861aa94efedce3b9c3c0a
+SHA256: 185552adcbc53ce1d12b14164e19a962f7b1a64a64be9cc9b46f2a3dcf42a65f
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -954,15 +954,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/InfusePlus/main/Reso
 
 Package: com.dvntm.infuseplus
 Version: 2.5
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: dvntm
 Installed-Size: 1292
 Depends: mobilesubstrate
-Filename: debs/infuseplus/com.dvntm.infuseplus_2.5_iphoneos-arm.deb
-Size: 454810
-MD5sum: 2da1349e2ccbb9fc1f5faedbb9499713
-SHA1: db1e7d55a807fa87fa5861aa94efedce3b9c3c0a
-SHA256: 185552adcbc53ce1d12b14164e19a962f7b1a64a64be9cc9b46f2a3dcf42a65f
+Filename: debs/infuseplus/com.dvntm.infuseplus_2.5_iphoneos-arm64.deb
+Size: 455058
+MD5sum: 42702d3fd7c22a5f0eef82445922b81c
+SHA1: cc87be8bfb1ef883134f29cb4bc8fb3d30b84c0c
+SHA256: 5c5f07a441c1a8f1bdb8aba0828d62e95bc4639bf791490057eaa941c0644396
 Section: Tweaks
 Description: Enhancer for Infuse app
 Author: dvntm
@@ -1134,6 +1134,24 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/OrwellVK/main/Sileo/
 
 Package: com.dvntm.tweach
 Version: 2.3
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 20308
+Depends: mobilesubstrate
+Filename: debs/tweach/com.dvntm.tweach_2.3_iphoneos-arm64.deb
+Size: 7286324
+MD5sum: fb98235cfac0e28251dde7d17f06cf1a
+SHA1: 1f2f90c376633815e73de35c975abf5787ba118c
+SHA256: bc009eda2cae4e90aec5566717a7113def930d4318338a3b4f0e189122386ead
+Section: Tweaks
+Description: Download your favorite clips, VODs and Live Streams with Tweach!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
+Name: Tweach
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
+
+Package: com.dvntm.tweach
+Version: 2.3
 Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 20308
@@ -1161,42 +1179,6 @@ Size: 7285264
 MD5sum: 613979da32f4150af92db3b833356a8b
 SHA1: b3548ba18802e486481caea22b3e98a1e210f560
 SHA256: 9b8d00992377e63b31fa7aaf77238f8dcdf818cd1ed114d42825ecbc2ae40b68
-Section: Tweaks
-Description: Download your favorite clips, VODs and Live Streams with Tweach!
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
-Name: Tweach
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
-
-Package: com.dvntm.tweach
-Version: 2.3
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Installed-Size: 20308
-Depends: mobilesubstrate
-Filename: debs/tweach/com.dvntm.tweach_2.3_iphoneos-arm64.deb
-Size: 7286324
-MD5sum: fb98235cfac0e28251dde7d17f06cf1a
-SHA1: 1f2f90c376633815e73de35c975abf5787ba118c
-SHA256: bc009eda2cae4e90aec5566717a7113def930d4318338a3b4f0e189122386ead
-Section: Tweaks
-Description: Download your favorite clips, VODs and Live Streams with Tweach!
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
-Name: Tweach
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
-
-Package: com.dvntm.tweach
-Version: 2.3.1
-Architecture: iphoneos-arm64e
-Maintainer: dvntm
-Installed-Size: 20356
-Depends: mobilesubstrate
-Filename: debs/tweach/com.dvntm.tweach_2.3.1_iphoneos-arm64e.deb
-Size: 7289934
-MD5sum: 914d2c860bf4deec3026fd0ad60fae32
-SHA1: 5b553fe1dbe01c27894968ff23af8bcc3e85638f
-SHA256: 46ef1680a5bd20fe5eb2958aacd900c1372c6fe5d29073be71a9a59c911a55c2
 Section: Tweaks
 Description: Download your favorite clips, VODs and Live Streams with Tweach!
 Author: dvntm
@@ -1241,6 +1223,24 @@ Name: Tweach
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
 
 Package: com.dvntm.tweach
+Version: 2.3.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 20356
+Depends: mobilesubstrate
+Filename: debs/tweach/com.dvntm.tweach_2.3.1_iphoneos-arm64e.deb
+Size: 7289934
+MD5sum: 914d2c860bf4deec3026fd0ad60fae32
+SHA1: 5b553fe1dbe01c27894968ff23af8bcc3e85638f
+SHA256: 46ef1680a5bd20fe5eb2958aacd900c1372c6fe5d29073be71a9a59c911a55c2
+Section: Tweaks
+Description: Download your favorite clips, VODs and Live Streams with Tweach!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
+Name: Tweach
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
+
+Package: com.dvntm.tweach
 Version: 2.3.2
 Architecture: iphoneos-arm64
 Maintainer: dvntm
@@ -1260,24 +1260,6 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/de
 
 Package: com.dvntm.tweach
 Version: 2.3.2
-Architecture: iphoneos-arm
-Maintainer: dvntm
-Installed-Size: 20372
-Depends: mobilesubstrate
-Filename: debs/tweach/com.dvntm.tweach_2.3.2_iphoneos-arm.deb
-Size: 7300250
-MD5sum: f1f8f8753c6223f482697804b6f6076b
-SHA1: d0aad076c788f5386ba23d31073ae808f6535783
-SHA256: 9bfdf24962604519237d367eeadee076566ea7fbf807c4111af7b2a307d15180
-Section: Tweaks
-Description: Download your favorite clips, VODs and Live Streams with Tweach!
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
-Name: Tweach
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
-
-Package: com.dvntm.tweach
-Version: 2.3.2
 Architecture: iphoneos-arm64e
 Maintainer: dvntm
 Installed-Size: 20372
@@ -1287,6 +1269,24 @@ Size: 7294814
 MD5sum: 4139b1135eb1a4f15b0f85182d6d2540
 SHA1: 96d95137447f38dd34196e9dfaa52a04b5d270d2
 SHA256: 2637ab6b71051f31574ca2c28999961293ffde4d29e68e5a921e561a93207635
+Section: Tweaks
+Description: Download your favorite clips, VODs and Live Streams with Tweach!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png
+Name: Tweach
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/depiction.json
+
+Package: com.dvntm.tweach
+Version: 2.3.2
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 20372
+Depends: mobilesubstrate
+Filename: debs/tweach/com.dvntm.tweach_2.3.2_iphoneos-arm.deb
+Size: 7300250
+MD5sum: f1f8f8753c6223f482697804b6f6076b
+SHA1: d0aad076c788f5386ba23d31073ae808f6535783
+SHA256: 9bfdf24962604519237d367eeadee076566ea7fbf807c4111af7b2a307d15180
 Section: Tweaks
 Description: Download your favorite clips, VODs and Live Streams with Tweach!
 Author: dvntm
@@ -1350,6 +1350,24 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/Tweach/main/sileo/de
 
 Package: com.dvntm.twlegacy
 Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/twlegacy/com.dvntm.twlegacy_0.0.1_iphoneos-arm64.deb
+Size: 6036
+MD5sum: 04beac79eda9095e7d7d6bbf60850dee
+SHA1: 36a92a1b6974505a52008788f2bae34eee5840ef
+SHA256: 10058405e9db27a13a3561a2e1154e33d561aa70d2b10213022cfed266211939
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
+Name: NoItsNotTimeToUpdate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
+
+Package: com.dvntm.twlegacy
+Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 56
@@ -1377,24 +1395,6 @@ Size: 6018
 MD5sum: f1e0336e1348f202fb4ee1199e4cc236
 SHA1: 7fba9d824bbddc91c31d64d78764f86f957ab9fd
 SHA256: 5aad476a34976623801835367036c63ca26e1467ca61c2bbdc0f80b3c6240b2b
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/refs/heads/main/Sileo/icon.png
-Name: NoItsNotTimeToUpdate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/NoItsNotTimeToUpdate/main/Sileo/depiction.json
-
-Package: com.dvntm.twlegacy
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Installed-Size: 56
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/twlegacy/com.dvntm.twlegacy_0.0.1_iphoneos-arm64.deb
-Size: 6036
-MD5sum: 04beac79eda9095e7d7d6bbf60850dee
-SHA1: 36a92a1b6974505a52008788f2bae34eee5840ef
-SHA256: 10058405e9db27a13a3561a2e1154e33d561aa70d2b10213022cfed266211939
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: dvntm
@@ -1458,15 +1458,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resource
 
 Package: com.dvntm.ytlite
 Version: 5.2.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: dvntm
-Installed-Size: 20764
+Installed-Size: 20732
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2.1_iphoneos-arm64.deb
-Size: 7432926
-MD5sum: 5ca2ad541bcc8d2f312816b880222b4b
-SHA1: bd5be80f8f23d261b8022f856df6733589f9c8fd
-SHA256: 8e4c575bf3648e1dd37d29367148521d1f5bd46f2c3b2e7db9ef2584124f3fac
+Filename: debs/ytplus/com.dvntm.ytlite_5.2.1_iphoneos-arm64e.deb
+Size: 7410936
+MD5sum: e36c555233b7cd65e0bb112d3935c49e
+SHA1: 623e4db2e44fb3d1d9d475d600f4c78d34ff91a0
+SHA256: c3a12613e7b81607a76c8064dbe27d2bb53c82d08428a85b4e2d37ad7de6c3ca
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1494,33 +1494,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resource
 
 Package: com.dvntm.ytlite
 Version: 5.2.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: dvntm
-Installed-Size: 20732
+Installed-Size: 20764
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2.1_iphoneos-arm64e.deb
-Size: 7410936
-MD5sum: e36c555233b7cd65e0bb112d3935c49e
-SHA1: 623e4db2e44fb3d1d9d475d600f4c78d34ff91a0
-SHA256: c3a12613e7b81607a76c8064dbe27d2bb53c82d08428a85b4e2d37ad7de6c3ca
-Section: Tweaks
-Description: Lightweight YouTube Enhancer
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
-Name: YTLite
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
-
-Package: com.dvntm.ytlite
-Version: 5.2~b1
-Architecture: iphoneos-arm64e
-Maintainer: dvntm
-Installed-Size: 16252
-Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2~b1_iphoneos-arm64e.deb
-Size: 6046020
-MD5sum: c085470a326f395ba6323512d53c013e
-SHA1: 6bde5a7225f1793f7850c2d4b8048d046b71fadf
-SHA256: 3928e885ea842eacbff50346be9094658e55c261d5eca9b121c35abacd747aa5
+Filename: debs/ytplus/com.dvntm.ytlite_5.2.1_iphoneos-arm64.deb
+Size: 7432926
+MD5sum: 5ca2ad541bcc8d2f312816b880222b4b
+SHA1: bd5be80f8f23d261b8022f856df6733589f9c8fd
+SHA256: 8e4c575bf3648e1dd37d29367148521d1f5bd46f2c3b2e7db9ef2584124f3fac
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1565,6 +1547,42 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
+Version: 5.2~b1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm
+Installed-Size: 16252
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b1_iphoneos-arm64e.deb
+Size: 6046020
+MD5sum: c085470a326f395ba6323512d53c013e
+SHA1: 6bde5a7225f1793f7850c2d4b8048d046b71fadf
+SHA256: 3928e885ea842eacbff50346be9094658e55c261d5eca9b121c35abacd747aa5
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
+Version: 5.2~b2
+Architecture: iphoneos-arm
+Maintainer: dvntm
+Installed-Size: 16696
+Depends: mobilesubstrate
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b2_iphoneos-arm.deb
+Size: 6401056
+MD5sum: ec67722190824e6cb6e92db948490e0d
+SHA1: 193c59f80d211b138c11a47cfa5d077fd585568f
+SHA256: 20a52de9704f43335cc25cad3a918ca85583ad8119e2e43ffc40e2ee318e72ba
+Section: Tweaks
+Description: Lightweight YouTube Enhancer
+Author: dvntm
+Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
+Name: YTLite
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
+
+Package: com.dvntm.ytlite
 Version: 5.2~b2
 Architecture: iphoneos-arm64
 Maintainer: dvntm
@@ -1601,16 +1619,16 @@ Name: YTLite
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
 
 Package: com.dvntm.ytlite
-Version: 5.2~b2
+Version: 5.2~b3
 Architecture: iphoneos-arm
 Maintainer: dvntm
 Installed-Size: 16696
 Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2~b2_iphoneos-arm.deb
-Size: 6401056
-MD5sum: ec67722190824e6cb6e92db948490e0d
-SHA1: 193c59f80d211b138c11a47cfa5d077fd585568f
-SHA256: 20a52de9704f43335cc25cad3a918ca85583ad8119e2e43ffc40e2ee318e72ba
+Filename: debs/ytplus/com.dvntm.ytlite_5.2~b3_iphoneos-arm.deb
+Size: 6398164
+MD5sum: 1abf2ce33440ed281dcc782c197acea8
+SHA1: adf4c685d0bf7c74b1d7d87b9736fe1aa0f4efbf
+SHA256: ddcb48eda445c237d91bffea60d5acb8525f9b458cd2450720fb0c84064c316c
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1647,24 +1665,6 @@ Size: 6403028
 MD5sum: 7d7d7b16579fb2d56d217a93a6ff724c
 SHA1: 787b54411e5489e6adb1c5b1e887f171661ee99b
 SHA256: 47ddf29b9fe24c822155a07a7a10c42c41d49e2b8647d93dc6feac8e3c1b7abb
-Section: Tweaks
-Description: Lightweight YouTube Enhancer
-Author: dvntm
-Icon: https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png
-Name: YTLite
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resources/depiction.json
-
-Package: com.dvntm.ytlite
-Version: 5.2~b3
-Architecture: iphoneos-arm
-Maintainer: dvntm
-Installed-Size: 16696
-Depends: mobilesubstrate
-Filename: debs/ytplus/com.dvntm.ytlite_5.2~b3_iphoneos-arm.deb
-Size: 6398164
-MD5sum: 1abf2ce33440ed281dcc782c197acea8
-SHA1: adf4c685d0bf7c74b1d7d87b9736fe1aa0f4efbf
-SHA256: ddcb48eda445c237d91bffea60d5acb8525f9b458cd2450720fb0c84064c316c
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
@@ -1728,24 +1728,6 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTLite/main/Resource
 
 Package: com.ginsu.ytmusicultimate
 Version: 2.3.1
-Architecture: iphoneos-arm64
-Maintainer: dayanch96 & ginsu
-Installed-Size: 19208
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64.deb
-Size: 7456384
-MD5sum: 050b7db1c4b2d9a33a9a54b9e583034e
-SHA1: 3a3cb2e9bdc3940cff2df461f7f2cd06c938e97d
-SHA256: b95f1299e0efff27f0448c9fe5bdc009acf3bcf61ac02fa8f741c05da0f1b41c
-Section: Tweaks
-Description: YouTube Music Premium
-Author: dayanch96 & ginsu
-Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
-Name: YTMusicUltimate
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
-
-Package: com.ginsu.ytmusicultimate
-Version: 2.3.1
 Architecture: iphoneos-arm
 Maintainer: dayanch96 & ginsu
 Installed-Size: 19208
@@ -1773,6 +1755,24 @@ Size: 7455378
 MD5sum: e8b75c25752e3e756630349bc595540a
 SHA1: 37880768f67e673d4c6fd0b569ca9006b4c4ddf1
 SHA256: 4cfeccd10ec61309fa50efa461c927d79f1d701c0c5750a8d5573858ef299ca9
+Section: Tweaks
+Description: YouTube Music Premium
+Author: dayanch96 & ginsu
+Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
+Name: YTMusicUltimate
+Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
+
+Package: com.ginsu.ytmusicultimate
+Version: 2.3.1
+Architecture: iphoneos-arm64
+Maintainer: dayanch96 & ginsu
+Installed-Size: 19208
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.3.1_iphoneos-arm64.deb
+Size: 7456384
+MD5sum: 050b7db1c4b2d9a33a9a54b9e583034e
+SHA1: 3a3cb2e9bdc3940cff2df461f7f2cd06c938e97d
+SHA256: b95f1299e0efff27f0448c9fe5bdc009acf3bcf61ac02fa8f741c05da0f1b41c
 Section: Tweaks
 Description: YouTube Music Premium
 Author: dayanch96 & ginsu
@@ -1836,15 +1836,15 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main
 
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: dayanch96 & ginsu
 Installed-Size: 17916
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64e.deb
-Size: 6572062
-MD5sum: 1359292410d2fc2a622dd6dfd39b1934
-SHA1: 68d1a86d608218a59484aad9c0c273c5c9bec191
-SHA256: f53220edcf618a500e376a7f8200199ee5e69d6e9cb9cd145bfd9ceafd199c18
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
+Size: 6566710
+MD5sum: 25acbe5dd2e0d161e88975b369c44725
+SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
+SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
 Section: Tweaks
 Description: YouTube Music Premium
 Author: dayanch96 & ginsu
@@ -1872,39 +1872,21 @@ Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main
 
 Package: com.ginsu.ytmusicultimate
 Version: 2.4.1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: dayanch96 & ginsu
 Installed-Size: 17916
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64.deb
-Size: 6566710
-MD5sum: 25acbe5dd2e0d161e88975b369c44725
-SHA1: 9911729edb671e0aeb466c8ba4438e3cfb46e2b5
-SHA256: 8bf33b555569c4998e5de7e104995c3d95a801171d42e2cc3be5815275b71be9
+Filename: debs/ytmu/com.ginsu.ytmusicultimate_2.4.1_iphoneos-arm64e.deb
+Size: 6572062
+MD5sum: 1359292410d2fc2a622dd6dfd39b1934
+SHA1: 68d1a86d608218a59484aad9c0c273c5c9bec191
+SHA256: f53220edcf618a500e376a7f8200199ee5e69d6e9cb9cd145bfd9ceafd199c18
 Section: Tweaks
 Description: YouTube Music Premium
 Author: dayanch96 & ginsu
 Icon: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png
 Name: YTMusicUltimate
 Sileodepiction: https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/depiction.json
-
-Package: me.jkhsjdhjs.youtube-native-share
-Version: 0.2.7
-Architecture: iphoneos-arm64e
-Maintainer: jkhsjdhjs
-Installed-Size: 56
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/yt-native-share/me.jkhsjdhjs.youtube-native-share_0.2.7_iphoneos-arm64e.deb
-Size: 5042
-MD5sum: b9002e950b4dd84d5ef384ea5923e264
-SHA1: afe44ee218bf0afde283325c37114faac94104fb
-SHA256: 32eaac704876db448dc72679c423e0ed786db4a77e764e3a891a9e6cb81b07b1
-Section: Tweaks
-Homepage: https://github.com/jkhsjdhjs/youtube-native-share
-Description: Bypass YouTubes own share sheet and use the system activity view instead.
- Avoids requesting a source identifier (si) with your data and sharing it with other people.
-Author: jkhsjdhjs
-Name: YouTube Native Share
 
 Package: me.jkhsjdhjs.youtube-native-share
 Version: 0.2.7
@@ -1917,6 +1899,24 @@ Size: 5114
 MD5sum: 629bb2a2fed34fce96de67e117646736
 SHA1: c6e05246c87024cc639cb6b56791b99ad7448c09
 SHA256: b5ee58951b6273d9c9c1c8168a6b508d10e4e0106b334d1d5f692d3bc91764d1
+Section: Tweaks
+Homepage: https://github.com/jkhsjdhjs/youtube-native-share
+Description: Bypass YouTubes own share sheet and use the system activity view instead.
+ Avoids requesting a source identifier (si) with your data and sharing it with other people.
+Author: jkhsjdhjs
+Name: YouTube Native Share
+
+Package: me.jkhsjdhjs.youtube-native-share
+Version: 0.2.7
+Architecture: iphoneos-arm64e
+Maintainer: jkhsjdhjs
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/yt-native-share/me.jkhsjdhjs.youtube-native-share_0.2.7_iphoneos-arm64e.deb
+Size: 5042
+MD5sum: b9002e950b4dd84d5ef384ea5923e264
+SHA1: afe44ee218bf0afde283325c37114faac94104fb
+SHA256: 32eaac704876db448dc72679c423e0ed786db4a77e764e3a891a9e6cb81b07b1
 Section: Tweaks
 Homepage: https://github.com/jkhsjdhjs/youtube-native-share
 Description: Bypass YouTubes own share sheet and use the system activity view instead.
